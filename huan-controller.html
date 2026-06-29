@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HUAN &#22270;&#29255;&#25511;&#21046;&#22120;</title>
+  <link rel="stylesheet" href="huan-controller.css?v=save-sync-20260611-1">
+</head>
+<body>
+  <header class="app-head">
+    <div>
+      <h1>HUAN &#22270;&#29255;&#25511;&#21046;&#22120;</h1>
+      <p>&#25353;&#39318;&#39029;&#12289;&#20108;&#32423;&#39029;&#12289;&#19977;&#32423;&#39029;&#31649;&#29702;&#22270;&#29255;&#21644;&#25991;&#23383;&#65292;&#19981;&#25913;&#21464;&#32593;&#39029;&#26495;&#22359;&#22823;&#23567;&#12290;</p>
+    </div>
+    <div class="head-actions">
+      <button type="button" data-action="reload">&#37325;&#26032;&#35835;&#21462;</button>
+      <button type="button" data-action="save" class="primary">&#20445;&#23384;&#37197;&#32622;</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="status" data-status>&#27491;&#22312;&#36830;&#25509;&#20445;&#23384;&#21161;&#25163;...</div>
+      <nav class="tabs" data-tabs></nav>
+    </aside>
+    <section class="content">
+      <div class="toolbar">
+        <input type="search" data-search placeholder="&#25628;&#32034;&#22270;&#29255;&#12289;&#25991;&#23383;&#12289;&#20135;&#21697;&#32534;&#21495;&#12289;&#36335;&#24452;">
+        <span data-count></span>
+      </div>
+      <div class="section-head">
+        <div>
+          <h2 data-section-title></h2>
+          <p data-section-subtitle></p>
+        </div>
+        <div class="section-actions" data-section-actions></div>
+      </div>
+      <div class="image-list" data-list></div>
+    </section>
+  </main>
+
+  <input type="file" accept="image/*" data-add-file hidden>
+
+  <template id="image-card-template">
+    <article class="image-card">
+      <div class="preview-wrap">
+        <img alt="">
+      </div>
+      <div class="preview-ratio" data-ratio></div>
+      <div class="image-controls">
+        <div class="card-head">
+          <div class="card-title"></div>
+          <button type="button" class="danger small" data-action="remove">&#20943;&#23569;</button>
+        </div>
+        <div class="text-fields" data-text-fields></div>
+        <label>&#22270;&#29255;&#36335;&#24452;<input type="text" data-field="src"></label>
+        <div class="upload-row">
+          <label class="upload-button">&#19978;&#20256;&#26367;&#25442;<input type="file" accept="image/*" data-field="upload"></label>
+          <button type="button" data-action="reset">&#37325;&#32622;&#32553;&#25918;&#20301;&#32622;</button>
+        </div>
+        <label>&#22270;&#29255;&#32553;&#25918; <output data-output="scale"></output><input type="range" min="0.5" max="3" step="0.05" data-field="scale"></label>
+        <label>&#27700;&#24179;&#20301;&#32622; <output data-output="offsetX"></output><input type="range" min="0" max="100" step="1" data-field="offsetX"></label>
+        <label>&#22402;&#30452;&#20301;&#32622; <output data-output="offsetY"></output><input type="range" min="0" max="100" step="1" data-field="offsetY"></label>
+        <div class="move-panel" aria-label="&#22270;&#29255;&#31227;&#21160;&#25353;&#38062;">
+          <button type="button" data-move="up" title="&#21521;&#19978;&#31227;&#21160;">&uarr;</button>
+          <button type="button" data-move="left" title="&#21521;&#24038;&#31227;&#21160;">&larr;</button>
+          <button type="button" data-move="right" title="&#21521;&#21491;&#31227;&#21160;">&rarr;</button>
+          <button type="button" data-move="down" title="&#21521;&#19979;&#31227;&#21160;">&darr;</button>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <template id="text-card-template">
+    <article class="image-card text-card">
+      <div class="text-preview">
+        <span>&#25991;&#23383;</span>
+      </div>
+      <div class="image-controls">
+        <div class="card-title"></div>
+        <div class="text-fields" data-text-fields></div>
+      </div>
+    </article>
+  </template>
+
+  <template id="summary-card-template">
+    <article class="summary-card">
+      <div>
+        <h3></h3>
+        <p></p>
+      </div>
+      <div class="summary-actions">
+        <button type="button" data-action="enter">&#36827;&#20837;&#32534;&#36753;</button>
+        <button type="button" data-action="add">&#19978;&#20256;&#26032;&#22686;</button>
+      </div>
+    </article>
+  </template>
+
+  <script src="huan-controller.js?v=save-sync-20260611-1"></script>
+</body>
+</html>
