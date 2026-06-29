@@ -30,12 +30,14 @@ def main() -> None:
     assert_exists("lv_assets/hero.jpg")
     assert_exists("lv_assets/hero-carousel.mp4")
     assert_exists("lv_assets/kaiping-opening.mp4")
+    assert_exists("lv_assets/kaiping-opening-poster.jpg")
     assert_not_exists("node/node.exe")
 
     html = (DIST / "index.html").read_text(encoding="utf-8")
     assert "<video" in html, "Pages build should keep homepage videos"
     assert "lv_assets/hero-carousel.mp4" in html
     assert "lv_assets/kaiping-opening.mp4" in html
+    assert 'poster="lv_assets/kaiping-opening-poster.jpg"' in html
 
     for video in ["lv_assets/hero-carousel.mp4", "lv_assets/kaiping-opening.mp4"]:
         video_path = DIST / video

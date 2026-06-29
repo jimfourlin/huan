@@ -2854,7 +2854,7 @@ body.lv-home .home-hero .hero-slide > img[data-huan-fit="height"]{
   display:flex;
   align-items:center;
   justify-content:center;
-  background:#000;
+  background:#000 url("lv_assets/kaiping-opening-poster.jpg") center/cover no-repeat;
   opacity:1;
   visibility:visible;
   transition:opacity .55s cubic-bezier(.22,1,.36,1),visibility .55s cubic-bezier(.22,1,.36,1);
@@ -2869,6 +2869,11 @@ body.lv-home .home-hero .hero-slide > img[data-huan-fit="height"]{
   height:100%;
   object-fit:cover;
   display:block;
+  opacity:0;
+  transition:opacity .35s ease;
+}
+.huan-opening-layer.is-video-ready video{
+  opacity:1;
 }
 .huan-opening-hotspot{
   position:absolute;
@@ -2938,7 +2943,7 @@ body.lv-home .trend-carousel .trend-copy p .caption-cn{
 </head>
 <body class="lv-home">
   <div class="huan-opening-layer" id="huanOpeningLayer" aria-hidden="false">
-    <video id="huanOpeningVideo" autoplay muted loop playsinline preload="auto">
+    <video id="huanOpeningVideo" autoplay muted loop playsinline preload="auto" poster="lv_assets/kaiping-opening-poster.jpg">
       <source src="lv_assets/kaiping-opening.mp4" type="video/mp4">
     </video>
     <button class="huan-opening-hotspot" id="huanOpeningEnter" type="button" aria-label="Enter home"></button>
@@ -5690,6 +5695,10 @@ body.lv-home .trend-carousel .trend-copy p .caption-cn{
     }
   }
 
+  function markVideoReady(){
+    if (layer) layer.classList.add('is-video-ready');
+  }
+
   function stopIdleTimer(){
     if (idleTimer) {
       window.clearTimeout(idleTimer);
@@ -5791,6 +5800,15 @@ body.lv-home .trend-carousel .trend-copy p .caption-cn{
   activityEvents.forEach(function(name){
     window.addEventListener(name, onActivity, {passive:true});
   });
+
+  if (video) {
+    if (video.readyState >= 2) {
+      markVideoReady();
+    } else {
+      video.addEventListener('loadeddata', markVideoReady, {once:true});
+      video.addEventListener('canplay', markVideoReady, {once:true});
+    }
+  }
 
   document.documentElement.classList.add('huan-opening-active');
   if (document.readyState === 'loading') {
