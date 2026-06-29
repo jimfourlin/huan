@@ -2,10 +2,8 @@ from __future__ import annotations
 
 import re
 import shutil
-import subprocess
 from pathlib import Path
 
-import imageio_ffmpeg
 from PIL import Image, ImageOps
 
 
@@ -23,9 +21,6 @@ COPY_ROOT_FILES = [
 
 MAX_DIMENSION = 1800
 JPEG_QUALITY = 82
-VIDEO_MAX_HEIGHT = 720
-VIDEO_CRF = "34"
-VIDEO_PRESET = "veryfast"
 
 
 def reset_dist() -> None:
@@ -56,34 +51,6 @@ def optimize_image(source: Path, target: Path) -> None:
         image.save(target, optimize=True)
 
 
-def optimize_video(source: Path, target: Path) -> None:
-    target.parent.mkdir(parents=True, exist_ok=True)
-    ffmpeg = imageio_ffmpeg.get_ffmpeg_exe()
-    subprocess.run(
-        [
-            ffmpeg,
-            "-y",
-            "-i",
-            str(source),
-            "-vf",
-            f"scale=-2:'min({VIDEO_MAX_HEIGHT},ih)'",
-            "-an",
-            "-c:v",
-            "libx264",
-            "-preset",
-            VIDEO_PRESET,
-            "-crf",
-            VIDEO_CRF,
-            "-pix_fmt",
-            "yuv420p",
-            "-movflags",
-            "+faststart",
-            str(target),
-        ],
-        check=True,
-    )
-
-
 def build_assets() -> None:
     for source in ASSETS.rglob("*"):
         if not source.is_file():
@@ -93,7 +60,8 @@ def build_assets() -> None:
         suffix = source.suffix.lower()
 
         if suffix == ".mp4":
-            optimize_video(source, target)
+            target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(source, target)
             continue
         if suffix in {".jpg", ".jpeg", ".png", ".webp", ".gif", ".svg"}:
             optimize_image(source, target)

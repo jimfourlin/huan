@@ -38,8 +38,11 @@ def main() -> None:
     assert "lv_assets/kaiping-opening.mp4" in html
 
     for video in ["lv_assets/hero-carousel.mp4", "lv_assets/kaiping-opening.mp4"]:
-        size_mb = (DIST / video).stat().st_size / 1024 / 1024
-        assert size_mb < 80, f"{video} is too large for Pages: {size_mb:.2f} MB"
+        video_path = DIST / video
+        size_mb = video_path.stat().st_size / 1024 / 1024
+        assert 1 < size_mb < 100, f"{video} is not a deployable MP4 size: {size_mb:.2f} MB"
+        header = video_path.read_bytes()[:32]
+        assert b"ftyp" in header, f"{video} is not an MP4 file"
 
     size_mb = sum(path.stat().st_size for path in DIST.rglob("*") if path.is_file()) / 1024 / 1024
     assert size_mb < 1000, f"Pages build exceeds GitHub Pages limit: {size_mb:.2f} MB"
