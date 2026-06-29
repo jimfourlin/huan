@@ -41,8 +41,10 @@ def main() -> None:
         video_path = DIST / video
         size_mb = video_path.stat().st_size / 1024 / 1024
         assert 1 < size_mb < 100, f"{video} is not a deployable MP4 size: {size_mb:.2f} MB"
-        header = video_path.read_bytes()[:32]
+        data = video_path.read_bytes()
+        header = data[:32]
         assert b"ftyp" in header, f"{video} is not an MP4 file"
+        assert 0 <= data.find(b"moov") < data.find(b"mdat"), f"{video} is not faststart optimized"
 
     size_mb = sum(path.stat().st_size for path in DIST.rglob("*") if path.is_file()) / 1024 / 1024
     assert size_mb < 1000, f"Pages build exceeds GitHub Pages limit: {size_mb:.2f} MB"

@@ -2,8 +2,10 @@ from __future__ import annotations
 
 import re
 import shutil
+import subprocess
 from pathlib import Path
 
+import imageio_ffmpeg
 from PIL import Image, ImageOps
 
 
@@ -51,6 +53,27 @@ def optimize_image(source: Path, target: Path) -> None:
         image.save(target, optimize=True)
 
 
+def make_faststart_video(source: Path, target: Path) -> None:
+    target.parent.mkdir(parents=True, exist_ok=True)
+    ffmpeg = imageio_ffmpeg.get_ffmpeg_exe()
+    subprocess.run(
+        [
+            ffmpeg,
+            "-y",
+            "-i",
+            str(source),
+            "-c",
+            "copy",
+            "-movflags",
+            "+faststart",
+            str(target),
+        ],
+        check=True,
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+    )
+
+
 def build_assets() -> None:
     for source in ASSETS.rglob("*"):
         if not source.is_file():
@@ -60,8 +83,7 @@ def build_assets() -> None:
         suffix = source.suffix.lower()
 
         if suffix == ".mp4":
-            target.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copy2(source, target)
+            make_faststart_video(source, target)
             continue
         if suffix in {".jpg", ".jpeg", ".png", ".webp", ".gif", ".svg"}:
             optimize_image(source, target)
