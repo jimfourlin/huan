@@ -2,6 +2,7 @@ backup/
 Huan-新版官网/
 
 *.log
+README*.txt
 preview*.png
 preview-home*.png
 当前网页链接.txt
