@@ -15,9 +15,9 @@
         { type: "video", src: "lv_assets/hero-carousel.mp4", poster: "lv_assets/hero.jpg", caption: "Woven Light in a Quiet Interior" },
         { type: "image", src: "lv_assets/hero.jpg", caption: "Black Straps Against Pleated Motion" },
         { type: "image", src: "lv_assets/journal.jpg", caption: "Silver Texture with a Low Heel" },
-        { type: "image", src: "lv_assets/story1.jpg", caption: "Bare Ankles, Soft Proportion" },
-        { type: "image", src: "lv_assets/story2.jpg", caption: "Pale Layers Beside Warm Linen" },
-        { type: "image", src: "lv_assets/model5.jpg", caption: "Soft Shine Close to the Floor" },
+        { type: "image", src: "lv_assets/home-carousel-1.jpg", caption: "Bare Ankles, Soft Proportion" },
+        { type: "image", src: "lv_assets/home-carousel-2.jpg", caption: "Pale Layers Beside Warm Linen" },
+        { type: "image", src: "lv_assets/home-carousel-3.jpg", caption: "Soft Shine Close to the Floor" },
       ],
       categories: [
         { title: "Ivory T-Bar", cta: "白色线条", image: "lv_assets/cat1.jpg" },
@@ -27,27 +27,27 @@
         { title: "Pearl Weave", cta: "浅色织面", image: "lv_assets/cat5.jpg" },
       ],
       stories: [
-        { title: "Woven Close-Up", desc: "银灰编织与柔光边界。", image: "lv_assets/story1.jpg" },
-        { title: "Warm Metallic", desc: "金色低跟进入日常步态。", image: "lv_assets/story2.jpg" },
+        { title: "Woven Close-Up", desc: "银灰编织与柔光边界。", image: "lv_assets/home-carousel-1.jpg" },
+        { title: "Warm Metallic", desc: "金色低跟进入日常步态。", image: "lv_assets/home-carousel-2.jpg" },
       ],
       sceneCaption: "Braided Shadow\n黑色编织，留白轮廓。",
       sceneSlides: [
-        { image: "lv_assets/home-carousel-1.png" },
-        { image: "lv_assets/home-carousel-2.png" },
-        { image: "lv_assets/home-carousel-3.png" },
-        { image: "lv_assets/home-carousel-4.png" },
-        { image: "lv_assets/home-carousel-5.png" },
+        { image: "lv_assets/home-carousel-1.jpg" },
+        { image: "lv_assets/home-carousel-2.jpg" },
+        { image: "lv_assets/home-carousel-3.jpg" },
+        { image: "lv_assets/home-carousel-4.jpg" },
+        { image: "lv_assets/home-carousel-5.jpg" },
       ],
       visualProducts: [
-        { title: "Open Weave", desc: "银色织面，轻透脚背。", image: "lv_assets/prod1.jpg" },
-        { title: "Silver Mule", desc: "开后跟与小方扣。", image: "lv_assets/prod2.jpg" },
-        { title: "Pale Slip-On", desc: "浅色织面，贴近棉麻。", image: "lv_assets/prod3.jpg" },
-        { title: "White Flat", desc: "低轮廓，干净留白。", image: "lv_assets/prod4.jpg" },
+        { title: "Open Weave", desc: "银色织面，轻透脚背。", image: "lv_assets/cat1.jpg" },
+        { title: "Silver Mule", desc: "开后跟与小方扣。", image: "lv_assets/cat2.jpg" },
+        { title: "Pale Slip-On", desc: "浅色织面，贴近棉麻。", image: "lv_assets/cat3.jpg" },
+        { title: "White Flat", desc: "低轮廓，干净留白。", image: "lv_assets/cat4.jpg" },
       ],
       journalPanels: [
-        { title: "face", image: "lv_assets/journal-face.png" },
-        { title: "beauty tools", image: "lv_assets/journal-tools.png" },
-        { title: "body", image: "lv_assets/journal-body.png" },
+        { title: "face", image: "lv_assets/journal-face.jpg" },
+        { title: "beauty tools", image: "lv_assets/journal-tools.jpg" },
+        { title: "body", image: "lv_assets/journal-body.jpg" },
       ],
     },
     secondary: {
@@ -55,10 +55,10 @@
       title: "Measured Ease",
       desc: "低跟、编织与柔光留白。",
       products: [
-        { tag: "IVORY NOTE", title: "Quiet T-Bar", desc: "白色皮面，细窄 T 字带。", image: "lv_assets/prod1.jpg" },
-        { tag: "BLACK PATENT", title: "Gloss T-Bar", desc: "黑色亮面，低跟节奏。", image: "lv_assets/prod2.jpg" },
-        { tag: "SILVER WEAVE", title: "Open Weave", desc: "银色编织，轻透脚背。", image: "lv_assets/prod3.jpg" },
-        { tag: "METALLIC MULE", title: "Silver Ease", desc: "开后跟，方扣收住重心。", image: "lv_assets/prod4.jpg" },
+        { tag: "IVORY NOTE", title: "Quiet T-Bar", desc: "白色皮面，细窄 T 字带。", image: "lv_assets/cat1.jpg" },
+        { tag: "BLACK PATENT", title: "Gloss T-Bar", desc: "黑色亮面，低跟节奏。", image: "lv_assets/cat2.jpg" },
+        { tag: "SILVER WEAVE", title: "Open Weave", desc: "银色编织，轻透脚背。", image: "lv_assets/cat3.jpg" },
+        { tag: "METALLIC MULE", title: "Silver Ease", desc: "开后跟，方扣收住重心。", image: "lv_assets/cat4.jpg" },
         { tag: "PEARL WEAVE", title: "Pale Slip-On", desc: "浅色织面，柔和低跟。", image: "lv_assets/cat1.jpg" },
       ],
     },
@@ -66,25 +66,25 @@
       eyebrow: "PRODUCT DETAIL PAGE",
       title: "AURORA LOAFER",
       desc: "A refined product detail experience with gallery views, lifestyle scenes and material storytelling.",
-      mainImage: "lv_assets/prod3.jpg",
+      mainImage: "lv_assets/cat3.jpg",
       gallery: [
-        { image: "lv_assets/prod1.jpg", thumb: "lv_assets/cat3.jpg" },
-        { image: "lv_assets/prod2.jpg", thumb: "lv_assets/cat4.jpg" },
-        { image: "lv_assets/prod3.jpg", thumb: "lv_assets/cat5.jpg" },
-        { image: "lv_assets/prod4.jpg", thumb: "lv_assets/prod1.jpg" },
-        { image: "lv_assets/cat1.jpg", thumb: "lv_assets/prod2.jpg" },
+        { image: "lv_assets/cat1.jpg", thumb: "lv_assets/cat3.jpg" },
+        { image: "lv_assets/cat2.jpg", thumb: "lv_assets/cat4.jpg" },
+        { image: "lv_assets/cat3.jpg", thumb: "lv_assets/cat5.jpg" },
+        { image: "lv_assets/cat4.jpg", thumb: "lv_assets/cat1.jpg" },
+        { image: "lv_assets/cat1.jpg", thumb: "lv_assets/cat2.jpg" },
       ],
       modelCards: [
         { title: "Model 01", image: "lv_assets/hero.jpg" },
-        { title: "Model 02", image: "lv_assets/story1.jpg" },
-        { title: "Model 03", image: "lv_assets/story2.jpg" },
-        { title: "Model 04", image: "lv_assets/model5.jpg" },
+        { title: "Model 02", image: "lv_assets/home-carousel-1.jpg" },
+        { title: "Model 03", image: "lv_assets/home-carousel-2.jpg" },
+        { title: "Model 04", image: "lv_assets/home-carousel-3.jpg" },
         { title: "Scene 05", image: "lv_assets/journal.jpg" },
-        { title: "Scene 06", image: "lv_assets/model6.jpg" },
-        { title: "Scene 07", image: "lv_assets/model7.jpg" },
-        { title: "Scene 08", image: "lv_assets/model8.jpg" },
-        { title: "Scene 09", image: "lv_assets/model9.jpg" },
-        { title: "Scene 10", image: "lv_assets/model10.jpg" },
+        { title: "Scene 06", image: "lv_assets/home-carousel-1.jpg" },
+        { title: "Scene 07", image: "lv_assets/home-carousel-2.jpg" },
+        { title: "Scene 08", image: "lv_assets/home-carousel-3.jpg" },
+        { title: "Scene 09", image: "lv_assets/home-carousel-4.jpg" },
+        { title: "Scene 10", image: "lv_assets/home-carousel-5.jpg" },
       ],
       detailImages: [
         "lv_assets/photo/1003/1003-pdd/20260611025631-1003-pdd-1 (1).jpg",
@@ -98,9 +98,9 @@
         "lv_assets/photo/1003/1003-pdd/1003-pdd-1 (9).jpg",
       ],
       slices: [
-        { title: "On-foot line", desc: "A first read of proportion, strap and heel.", image: "lv_assets/model6.jpg" },
-        { title: "Styled with fabric", desc: "The shoe set against movement, pleats and soft light.", image: "lv_assets/model7.jpg" },
-        { title: "Close editorial crop", desc: "Texture and silhouette seen without extra decoration.", image: "lv_assets/model8.jpg" },
+        { title: "On-foot line", desc: "A first read of proportion, strap and heel.", image: "lv_assets/home-carousel-1.jpg" },
+        { title: "Styled with fabric", desc: "The shoe set against movement, pleats and soft light.", image: "lv_assets/home-carousel-2.jpg" },
+        { title: "Close editorial crop", desc: "Texture and silhouette seen without extra decoration.", image: "lv_assets/home-carousel-3.jpg" },
       ],
     },
   };
@@ -879,9 +879,9 @@
   function bindImageLightbox() {
     document.addEventListener("click", function (event) {
       const target = event.target && event.target.closest
-        ? event.target.closest(".product-detail-page .detail-card, .product-detail-page .pdd-detail-card img, .product-detail-page .slice > img")
+        ? event.target.closest(".product-detail-page .hero-product, .product-detail-page .detail-card, .product-detail-page .pdd-detail-card img, .product-detail-page .slice > img")
         : null;
-      const image = target && target.matches(".detail-card") ? target.querySelector("img") : target;
+      const image = target && target.matches(".detail-card, .hero-product") ? target.querySelector("img") : target;
       if (!image) {
         return;
       }
@@ -897,7 +897,7 @@
     return typeof imageValue === "string" ? imageValue : "";
   }
 
-  var PRODUCT_ID_PATTERN = /(1003|1008|3009|3605|3623|6316|9956|9957|9963)/;
+  var PRODUCT_ID_PATTERN = /(1003|1008|2652|3009|3605|3623|6198|6316|9956|9957|9963)/;
 
   function productIdFromFileName(src) {
     var fileName = String(src || "").replace(/\\/g, "/").split("/").pop() || "";
@@ -906,7 +906,7 @@
   }
 
   function productIdFromPath(src) {
-    var match = String(src || "").match(/(?:^|[\/\\-])(1003|1008|3009|3605|3623|6316|9956|9957|9963)(?=[\/\\-]|$)/);
+    var match = String(src || "").match(/(?:^|[\/\\-])(1003|1008|2652|3009|3605|3623|6198|6316|9956|9957|9963)(?=[\/\\-]|$)/);
     return match ? match[1] : "";
   }
 
@@ -1219,9 +1219,6 @@
       thumb.className = "thumb-item" + (index === currentProductIndex ? " active" : "");
       thumb.innerHTML = "<img>";
       applyManagedImage(thumb.querySelector("img"), item.thumb);
-      thumb.addEventListener("mouseenter", function () {
-        window.changeProductImage(productId, index);
-      });
       thumb.addEventListener("click", function () {
         window.changeProductImage(productId, index);
       });
@@ -1825,7 +1822,7 @@
 
     const products = group(parent, "商品列表", true);
     listHeader(products, "商品卡片数量", "secondary.products", function () {
-      return { tag: "新品上市", title: "New Product", desc: "请填写商品描述。", image: normalizeImageValue("lv_assets/prod1.jpg", "lv_assets/prod1.jpg") };
+      return { tag: "新品上市", title: "New Product", desc: "请填写商品描述。", image: normalizeImageValue("lv_assets/cat1.jpg", "lv_assets/cat1.jpg") };
     });
 
     state.secondary.products.forEach((entry, index) => {
@@ -1854,8 +1851,8 @@
     const gallery = group(parent, "产品图库 / 左侧缩略图", true);
     listHeader(gallery, "产品图数量", "tertiary.gallery", function () {
       return {
-        image: normalizeImageValue("lv_assets/prod1.jpg", "lv_assets/prod1.jpg"),
-        thumb: normalizeImageValue("lv_assets/prod1.jpg", "lv_assets/prod1.jpg"),
+        image: normalizeImageValue("lv_assets/cat1.jpg", "lv_assets/cat1.jpg"),
+        thumb: normalizeImageValue("lv_assets/cat1.jpg", "lv_assets/cat1.jpg"),
       };
     });
     state.tertiary.gallery.forEach((entry, index) => {
@@ -1867,7 +1864,7 @@
 
     const models = group(parent, "模特 / 场景图", false);
     listHeader(models, "模特图数量", "tertiary.modelCards", function () {
-      return { title: "Model", image: normalizeImageValue("lv_assets/model5.jpg", "lv_assets/model5.jpg") };
+      return { title: "Model", image: normalizeImageValue("lv_assets/home-carousel-3.jpg", "lv_assets/home-carousel-3.jpg") };
     });
     state.tertiary.modelCards.forEach((entry, index) => {
       const box = item(models, "卡片 " + (index + 1));
@@ -1971,9 +1968,24 @@
     if (typeof index !== "number") {
       index = 0;
     }
+    const previousIndex = currentProductIndex;
     currentProductIndex = (index + state.tertiary.gallery.length) % state.tertiary.gallery.length;
-    state.tertiary.mainImage = state.tertiary.gallery[currentProductIndex].image.src;
-    renderProductGallery();
+    const active = state.tertiary.gallery[currentProductIndex];
+    state.tertiary.mainImage = active.image.src;
+
+    const page = getTertiaryPage(productId);
+    const thumbs = page ? page.querySelectorAll(".thumb-item") : [];
+    if (thumbs[previousIndex]) {
+      thumbs[previousIndex].classList.remove("active");
+    }
+    if (thumbs[currentProductIndex]) {
+      thumbs[currentProductIndex].classList.add("active");
+    }
+
+    const mainImage = page && (page.querySelector("[data-main-product-image]") || document.getElementById("mainProductImage-" + productId) || document.getElementById("mainProductImage"));
+    if (mainImage) {
+      applyManagedImage(mainImage, active.image);
+    }
   };
 
   window.showProductDetail = function (productId) {

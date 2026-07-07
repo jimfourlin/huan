@@ -154,7 +154,7 @@ function imageOrFallback(value, fallback) {
   return value;
 }
 
-const PRODUCT_ID_PATTERN = /(1003|1008|3009|3605|3623|6316|9956|9957|9963)/;
+const PRODUCT_ID_PATTERN = /(1008|1003|2652|3009|3605|3623|6198|6316|9956|9957|9963)/;
 
 function productIdFromFileName(src) {
   const fileName = String(src || "").replace(/\\/g, "/").split("/").pop() || "";
@@ -163,7 +163,7 @@ function productIdFromFileName(src) {
 }
 
 function productIdFromPath(src) {
-  const match = String(src || "").match(/(?:^|[\/\\-])(1003|1008|3009|3605|3623|6316|9956|9957|9963)(?=[\/\\-]|$)/);
+  const match = String(src || "").match(/(?:^|[\/\\-])(1008|1003|2652|3009|3605|3623|6198|6316|9956|9957|9963)(?=[\/\\-]|$)/);
   return match ? match[1] : "";
 }
 
@@ -442,7 +442,7 @@ function renderTertiaryPage(config, productId) {
   const detailFallback = firstUsableImage(details, firstGallery);
   const thumbs = gallery.map((item, index) => {
     const thumb = item.thumb || item.image || item.src || item;
-    return `        <div class="thumb-item${index === 0 ? " active" : ""}" onmouseenter="changeProductImage('${escapeAttribute(productId)}', ${index})" onclick="changeProductImage('${escapeAttribute(productId)}', ${index})"><img ${managedImageAttrs(thumb)}></div>`;
+    return `        <div class="thumb-item${index === 0 ? " active" : ""}" onclick="changeProductImage('${escapeAttribute(productId)}', ${index})"><img ${managedImageAttrs(thumb)}></div>`;
   }).join("\n");
   const modelCards = models.map((item, index) => {
     return `      <div class="detail-card"><img ${managedImageAttrs(item.image || item.src || item)}><h3>${escapeHtml(item.title || "Model " + String(index + 1).padStart(2, "0"))}</h3></div>`;
@@ -451,7 +451,7 @@ function renderTertiaryPage(config, productId) {
     const image = imageOrFallback(item.image || item.src || item, detailFallback);
     return `        <figure class="pdd-detail-card"><img ${managedImageAttrs(image)} alt="${escapeAttribute(productId)} product detail section ${String(index + 1).padStart(2, "0")}"></figure>`;
   }).join("\n");
-  return `  <main id="tertiary-${escapeAttribute(productId)}" class="page product-detail-page" data-product-id="${escapeAttribute(productId)}">\n    <section class="page-head"><div><p>${escapeHtml(meta.tag || "")}</p><h1>${escapeHtml(meta.title || productId)}</h1><p>${escapeHtml(meta.desc || "")}</p></div><button class="back" onclick="showReturnPage()">← 返回二级页面</button></section>\n    <section class="detail-product">\n      <div class="thumb-column">\n${thumbs}\n      </div>\n      <div class="hero-product"><img id="mainProductImage-${escapeAttribute(productId)}" data-main-product-image ${managedImageAttrs(firstGallery)}><div class="hero-nav"><button onclick="prevProductImage('${escapeAttribute(productId)}')">‹</button><button onclick="nextProductImage('${escapeAttribute(productId)}')">›</button></div></div>\n    </section>\n${renderProductEditorial(catalog)}    <section class="detail-grid">\n${modelCards}\n    </section>\n    <section class="pdd-detail" aria-label="${escapeAttribute(productId)} product detail images">\n      <div class="pdd-detail-inner">\n${detailCards}\n      </div>\n    </section>\n    ${renderSlices(config, productId)}\n  </main>`;
+  return `  <main id="tertiary-${escapeAttribute(productId)}" class="page product-detail-page" data-product-id="${escapeAttribute(productId)}">\n    <section class="page-head"><div><p>${escapeHtml(meta.tag || "")}</p><h1>${escapeHtml(meta.title || productId)}</h1><p>${escapeHtml(meta.desc || "")}</p></div><button class="back" onclick="showReturnPage()">← 返回二级页面</button></section>\n    <section class="detail-product">\n      <div class="thumb-column">\n${thumbs}\n      </div>\n      <div class="hero-product"><img id="mainProductImage-${escapeAttribute(productId)}" data-main-product-image ${managedImageAttrs(firstGallery)}></div>\n    </section>\n${renderProductEditorial(catalog)}    <section class="detail-grid">\n${modelCards}\n    </section>\n    <section class="pdd-detail" aria-label="${escapeAttribute(productId)} product detail images">\n      <div class="pdd-detail-inner">\n${detailCards}\n      </div>\n    </section>\n    ${renderSlices(config, productId)}\n  </main>`;
 }
 
 function renderTertiaryPages(config) {

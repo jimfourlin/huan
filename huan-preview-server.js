@@ -6,7 +6,7 @@ const { exec } = require("child_process");
 const root = __dirname;
 const startPort = 4177;
 const packageName = path.basename(root);
-const packageHeaderValue = createPackageHeaderValue(packageName);
+const packageHeader = encodeURIComponent(packageName);
 const expectedVersion = "save-sync-20260610-1";
 const currentLinkFile = path.join(root, "\u5f53\u524d\u7f51\u9875\u94fe\u63a5.txt");
 
@@ -25,10 +25,6 @@ const types = {
   ".ico": "image/x-icon",
 };
 
-function createPackageHeaderValue(value) {
-  return encodeURIComponent(value);
-}
-
 function sendFile(response, filePath) {
   fs.stat(filePath, (error, stat) => {
     if (error || !stat.isFile()) {
@@ -41,15 +37,43 @@ function sendFile(response, filePath) {
       "Content-Type": types[ext] || "application/octet-stream",
       "Content-Length": stat.size,
       "Cache-Control": "no-store",
-      "X-HUAN-Package": packageHeaderValue,
+      "X-HUAN-Package": packageHeader,
     });
     fs.createReadStream(filePath).pipe(response);
   });
 }
 
+function statVersion(fileName) {
+  const filePath = path.join(root, fileName);
+  try {
+    const stat = fs.statSync(filePath);
+    return `${Math.round(stat.mtimeMs)}-${stat.size}`;
+  } catch (error) {
+    return "missing";
+  }
+}
+
+function sendVersion(response) {
+  const payload = JSON.stringify({
+    ok: true,
+    index: statVersion("index.html"),
+    config: statVersion("huan-config.js"),
+  });
+  response.writeHead(200, {
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": Buffer.byteLength(payload),
+    "Cache-Control": "no-store",
+  });
+  response.end(payload);
+}
+
 function createServer(port) {
   const server = http.createServer((request, response) => {
     const urlPath = decodeURIComponent((request.url || "/").split("?")[0]);
+    if (urlPath === "/__huan_preview_version") {
+      sendVersion(response);
+      return;
+    }
     const relativePath = urlPath === "/" ? "index.html" : urlPath.replace(/^\/+/, "");
     const filePath = path.resolve(root, relativePath);
     if (!filePath.startsWith(root)) {
@@ -85,11 +109,5 @@ function createServer(port) {
   });
 }
 
-if (require.main === module) {
-  createServer(startPort);
-}
-
-module.exports = {
-  createPackageHeaderValue,
-};
+createServer(startPort);
 

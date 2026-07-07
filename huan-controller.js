@@ -1,11 +1,11 @@
 (function () {
   const API = "http://127.0.0.1:43210";
   const MOVE_STEP = 2;
-  const PROJECT_NAME = decodeURIComponent(location.pathname)
+  const pathParts = decodeURIComponent(location.pathname)
     .replace(/\\/g, "/")
     .split("/")
-    .filter(Boolean)
-    .slice(-2, -1)[0] || "HUAN_site_package_20260610";
+    .filter(Boolean);
+  const PROJECT_NAME = pathParts.length > 1 ? pathParts[pathParts.length - 2] : "";
 
   const text = {
     parseError: "\u65e0\u6cd5\u89e3\u6790 huan-config.js",
@@ -80,6 +80,12 @@
 
   function configText() {
     return "window.HUAN_SITE_CONFIG = " + JSON.stringify(state.config, null, 2) + ";\n";
+  }
+
+  function isCurrentProjectFile(filePath) {
+    const value = String(filePath || "").replace(/\\/g, "/").toLowerCase();
+    if (!value.endsWith("/huan-config.js")) return false;
+    return !PROJECT_NAME || value.includes(PROJECT_NAME.toLowerCase());
   }
 
   function clamp(value, fallback, min, max) {
@@ -191,7 +197,7 @@
     return product && product.gallery && product.gallery[0] ? ensureImage(product.gallery[0].image).src : "";
   }
 
-  const PRODUCT_ID_PATTERN = /(1003|1008|3009|3605|3623|6316|9956|9957|9963)/;
+  const PRODUCT_ID_PATTERN = /(1008|1003|2652|3009|3605|3623|6198|6316|9956|9957|9963)/;
 
   function productIdFromFileName(name) {
     const fileName = String(name || "").replace(/\\/g, "/").split("/").pop() || "";
@@ -209,8 +215,8 @@
       homeScene: "16 / 9",
       homeVisual: "1.32 / 1",
       homeJournal: "8 / 9",
-      secondary: "16 / 9",
-      bai: "16 / 9",
+      secondary: "4 / 3",
+      bai: "5 / 3",
       mode: "1 / 1.22",
       pdd: "3 / 5",
       slice: "1.55 / 1",
@@ -861,7 +867,7 @@
   async function loadConfig() {
     setStatus(text.loading, "");
     const health = await fetch(API + "/health").then((res) => res.json());
-    if (!health.ok || !String(health.projectFile || "").toLowerCase().includes(PROJECT_NAME.toLowerCase())) {
+    if (!health.ok || !isCurrentProjectFile(health.projectFile)) {
       throw new Error(text.wrongHelper + (health.projectFile || text.unknownPath));
     }
     const result = await fetch(API + "/config").then((res) => res.json());
@@ -906,7 +912,7 @@
     }
     console.log("[ASSET CHECK PASSED] \u6240\u6709\u56fe\u7247\u8d44\u6e90\u68c0\u67e5\u901a\u8fc7", result.assetReport || {});
     setStatus(text.assetSafe, "ok");
-    if (!String(result.projectFile || "").toLowerCase().includes(PROJECT_NAME.toLowerCase())) {
+    if (!isCurrentProjectFile(result.projectFile)) {
       throw new Error("\u4fdd\u5b58\u76ee\u6807\u4e0d\u662f\u5f53\u524d\u9879\u76ee\uff1a" + result.projectFile);
     }
     state.configVersion = result.version || state.configVersion;

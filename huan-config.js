@@ -11,10 +11,10 @@ window.HUAN_SITE_CONFIG = {
       {
         "type": "image",
         "src": {
-          "src": "lv_assets/photo/3605/3605-mode/20260613102913-9957-mode (7).png",
+          "src": "lv_assets/photo/3605/3605-mode/20260707084942-6198-模特成图 (5).jpg",
           "scale": 1,
           "offsetX": 50,
-          "offsetY": 34,
+          "offsetY": 27,
           "isUploaded": true
         },
         "caption": "Black Straps Against Pleated Motion"
@@ -22,7 +22,7 @@ window.HUAN_SITE_CONFIG = {
       {
         "type": "image",
         "src": {
-          "src": "lv_assets/photo/3623/3623-mode/20260611025226-3605-mode (7).png",
+          "src": "lv_assets/photo/3623/3623-mode/20260611025226-3605-mode (7).jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 40,
@@ -33,10 +33,10 @@ window.HUAN_SITE_CONFIG = {
       {
         "type": "image",
         "src": {
-          "src": "lv_assets/photo/6316/6316-mode/20260613102830-20260611025211-1003-mode-1 (5).png",
+          "src": "lv_assets/photo/6316/6316-mode/20260707085019-6198-模特成图 (3).jpg",
           "scale": 1,
           "offsetX": 50,
-          "offsetY": 32,
+          "offsetY": 51,
           "isUploaded": true
         },
         "caption": "Bare Ankles, Soft Proportion"
@@ -44,7 +44,7 @@ window.HUAN_SITE_CONFIG = {
       {
         "type": "image",
         "src": {
-          "src": "lv_assets/photo/9956/9956-mode/20260611025246-9957-mode (1).png",
+          "src": "lv_assets/photo/9956/9956-mode/20260611025246-9957-mode (1).jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 30,
@@ -55,7 +55,7 @@ window.HUAN_SITE_CONFIG = {
       {
         "type": "image",
         "src": {
-          "src": "lv_assets/photo/9957/9957-mode/20260611025257-9956-mode (3).png",
+          "src": "lv_assets/photo/9957/9957-mode/20260611025257-9956-mode (3).jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 38,
@@ -66,64 +66,74 @@ window.HUAN_SITE_CONFIG = {
     ],
     "categories": [
       {
-        "title": "Ivory T-Bar",
+        "title": "Gloss T-Bar",
         "image": {
-          "src": "lv_assets/photo/9956/9956-bai/20260613103018-9956-bai (1).png",
-          "scale": 1,
-          "offsetX": 50,
-          "offsetY": 50,
-          "isUploaded": true
-        },
-        "productId": "9956",
-        "cta": "白色线条"
-      },
-      {
-        "title": "Black Patent",
-        "image": {
-          "src": "lv_assets/photo/1008/1008-bai/20260613102929-1008-bai (2).png",
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-01.png",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
           "isUploaded": true
         },
         "productId": "1008",
-        "cta": "黑色低跟"
+        "cta": "白色线条",
+        "tag": "BLACK PATENT",
+        "desc": "黑色亮面，低跟节奏。"
       },
       {
-        "title": "Silver Weave",
+        "title": "Soft Topline",
         "image": {
-          "src": "lv_assets/photo/3009/3009-bai/20260613102946-3009-bai (3).png",
+          "src": "lv_assets/photo/9956/9956-bai/20260707-53-9956-bai-01.png",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
           "isUploaded": true
         },
-        "productId": "3009",
-        "cta": "银色编织"
+        "productId": "9956",
+        "cta": "黑色低跟",
+        "tag": "WHITE FLAT",
+        "desc": "白色平底，柔和口线。"
       },
       {
-        "title": "Open Mule",
+        "title": "Warm Metallic",
         "image": {
-          "src": "lv_assets/photo/3605/3605-bai/20260613102954-3605-bai (2).png",
+          "src": "lv_assets/photo/9957/9957-bai/20260707-53-9957-bai-01.jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
           "isUploaded": true
         },
-        "productId": "3605",
-        "cta": "开口低跟"
+        "productId": "9957",
+        "cta": "银色编织",
+        "tag": "GOLD WEAVE",
+        "desc": "金色织面，双带节奏。"
       },
       {
-        "title": "Pearl Weave",
+        "title": "Instep Line",
         "image": {
-          "src": "lv_assets/photo/3623/3623-bai/20260613101650-3623-bai (1).png",
+          "src": "lv_assets/photo/9963/9963-bai/20260707-53-9963-bai-03.png",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
           "isUploaded": true
         },
-        "productId": "3623",
-        "cta": "浅色织面"
+        "productId": "9963",
+        "cta": "开口低跟",
+        "tag": "CLASSIC STRAP",
+        "desc": "圆头横带，复古留白。"
+      },
+      {
+        "title": "Soft T-Strap",
+        "image": {
+          "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-01.png",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        },
+        "productId": "6198",
+        "cta": "浅色织面",
+        "tag": "SOFT T-STRAP",
+        "desc": "分段皮面，T 字带轻贴脚背。"
       }
     ],
     "stories": [
@@ -131,10 +141,10 @@ window.HUAN_SITE_CONFIG = {
         "title": "Woven Close-Up",
         "desc": "银灰编织与柔光边界。",
         "image": {
-          "src": "lv_assets/photo/3623/3623-mode/20260611025336-3623-mode (6).png",
+          "src": "lv_assets/photo/3623/3623-mode/20260611025336-3623-mode (6).jpg",
           "scale": 1,
           "offsetX": 50,
-          "offsetY": 32,
+          "offsetY": 50,
           "isUploaded": true
         },
         "productId": "3623"
@@ -143,7 +153,7 @@ window.HUAN_SITE_CONFIG = {
         "title": "Warm Metallic",
         "desc": "金色低跟进入日常步态。",
         "image": {
-          "src": "lv_assets/photo/9956/9956-mode/20260611025326-9956-mode (5).png",
+          "src": "lv_assets/photo/9956/9956-mode/20260611025326-9956-mode (5).jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 24,
@@ -156,7 +166,7 @@ window.HUAN_SITE_CONFIG = {
     "sceneSlides": [
       {
         "image": {
-          "src": "lv_assets/photo/3623/3623-mode/20260611025355-3623-mode (4).png",
+          "src": "lv_assets/photo/3623/3623-mode/20260611025355-3623-mode (4).jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
@@ -166,37 +176,37 @@ window.HUAN_SITE_CONFIG = {
       },
       {
         "image": {
-          "src": "lv_assets/photo/1008/1008-mode/20260611025406-1008-mode (7).png",
+          "src": "lv_assets/photo/6198/6198-mode/20260707085346-6198-模特成图 (16).jpg",
           "scale": 1,
           "offsetX": 50,
-          "offsetY": 26,
+          "offsetY": 33,
           "isUploaded": true
         },
-        "productId": "1008"
+        "productId": "6198"
       },
       {
         "image": {
-          "src": "lv_assets/photo/3009/3009-mode/3009-mode (1).png",
+          "src": "lv_assets/photo/3009/3009-mode/3009-mode (1).jpg",
           "scale": 1,
           "offsetX": 50,
-          "offsetY": 35,
+          "offsetY": 45,
           "isUploaded": true
         },
         "productId": "3009"
       },
       {
         "image": {
-          "src": "lv_assets/photo/3605/3605-mode/3605-mode (2).png",
+          "src": "lv_assets/photo/6198/6198-mode/20260707085257-6198-模特成图 (11).jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 29,
           "isUploaded": true
         },
-        "productId": "3605"
+        "productId": "6198"
       },
       {
         "image": {
-          "src": "lv_assets/photo/3623/3623-mode/3623-mode (2).png",
+          "src": "lv_assets/photo/3623/3623-mode/3623-mode (2).jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 51,
@@ -210,10 +220,10 @@ window.HUAN_SITE_CONFIG = {
         "title": "Open Weave",
         "desc": "银色织面，轻透脚背。",
         "image": {
-          "src": "lv_assets/photo/3009/3009-mode/3009-mode (2).png",
+          "src": "lv_assets/photo/3009/3009-mode/3009-mode (2).jpg",
           "scale": 1,
           "offsetX": 50,
-          "offsetY": 39,
+          "offsetY": 43,
           "isUploaded": true
         },
         "productId": "3009"
@@ -222,10 +232,10 @@ window.HUAN_SITE_CONFIG = {
         "title": "Silver Mule",
         "desc": "开后跟与小方扣。",
         "image": {
-          "src": "lv_assets/photo/3605/3605-mode/3605-mode (3).png",
+          "src": "lv_assets/photo/3605/3605-mode/3605-mode (3).jpg",
           "scale": 1,
           "offsetX": 50,
-          "offsetY": 34,
+          "offsetY": 32,
           "isUploaded": true
         },
         "productId": "3605"
@@ -234,22 +244,22 @@ window.HUAN_SITE_CONFIG = {
         "title": "Pale Slip-On",
         "desc": "浅色织面，贴近棉麻。",
         "image": {
-          "src": "lv_assets/photo/3623/3623-mode/3623-mode (3).png",
+          "src": "lv_assets/photo/6198/6198-mode/20260707085225-6198-模特成图 (7).jpg",
           "scale": 1,
           "offsetX": 50,
-          "offsetY": 33,
+          "offsetY": 28,
           "isUploaded": true
         },
-        "productId": "3623"
+        "productId": "6198"
       },
       {
         "title": "White Flat",
         "desc": "低轮廓，干净留白。",
         "image": {
-          "src": "lv_assets/photo/9956/9956-mode/20260611025445-9956-mode (8).png",
+          "src": "lv_assets/photo/9956/9956-mode/20260611025445-9956-mode (8).jpg",
           "scale": 1,
           "offsetX": 50,
-          "offsetY": 59,
+          "offsetY": 63,
           "isUploaded": true
         },
         "productId": "9956"
@@ -259,7 +269,7 @@ window.HUAN_SITE_CONFIG = {
       {
         "title": "face",
         "image": {
-          "src": "lv_assets/photo/9956/9956-mode/20260611025532-9956-mode (9).png",
+          "src": "lv_assets/photo/9956/9956-mode/20260611025532-9956-mode (9).jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 46,
@@ -270,7 +280,7 @@ window.HUAN_SITE_CONFIG = {
       {
         "title": "beauty tools",
         "image": {
-          "src": "lv_assets/photo/3623/3623-mode/20260611025521-3623-mode (2).png",
+          "src": "lv_assets/photo/3623/3623-mode/20260611025521-3623-mode (2).jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
@@ -281,7 +291,7 @@ window.HUAN_SITE_CONFIG = {
       {
         "title": "body",
         "image": {
-          "src": "lv_assets/photo/9963/9963-mode/20260611025507-9963-mode (10).png",
+          "src": "lv_assets/photo/9963/9963-mode/20260611025507-9963-mode (10).jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
@@ -302,7 +312,7 @@ window.HUAN_SITE_CONFIG = {
         "title": "Quiet T-Bar",
         "desc": "白色皮面，细窄 T 字带。",
         "image": {
-          "src": "lv_assets/photo/1003/1003-bai/20260613101811-1003-bai-1 (1).png",
+          "src": "lv_assets/photo/1003/1003-bai/20260707-53-1003-bai-01.jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
@@ -315,7 +325,7 @@ window.HUAN_SITE_CONFIG = {
         "title": "Gloss T-Bar",
         "desc": "黑色亮面，低跟节奏。",
         "image": {
-          "src": "lv_assets/photo/1008/1008-bai/20260613101818-1008-bai (2).png",
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-01.png",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
@@ -328,7 +338,7 @@ window.HUAN_SITE_CONFIG = {
         "title": "Open Weave",
         "desc": "银色编织，轻透脚背。",
         "image": {
-          "src": "lv_assets/photo/3009/3009-bai/20260613101824-3009-bai (3).png",
+          "src": "lv_assets/photo/3009/3009-bai/20260707-53-3009-bai-01.jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
@@ -341,10 +351,10 @@ window.HUAN_SITE_CONFIG = {
         "title": "Silver Ease",
         "desc": "开后跟，方扣收住重心。",
         "image": {
-          "src": "lv_assets/photo/3605/3605-bai/20260613101834-3605-bai (2).png",
+          "src": "lv_assets/photo/3605/3605-bai/20260707-53-3605-bai-01.png",
           "scale": 1,
           "offsetX": 50,
-          "offsetY": 47,
+          "offsetY": 50,
           "isUploaded": true
         }
       },
@@ -354,20 +364,7 @@ window.HUAN_SITE_CONFIG = {
         "title": "Pale Slip-On",
         "desc": "浅色织面，柔和低跟。",
         "image": {
-          "src": "lv_assets/photo/3623/3623-bai/20260613101846-3623-bai (1).png",
-          "scale": 1,
-          "offsetX": 50,
-          "offsetY": 50,
-          "isUploaded": true
-        }
-      },
-      {
-        "productId": "6316",
-        "tag": "NOIR WEAVE",
-        "title": "Dark Texture",
-        "desc": "黑色编织，图形阴影。",
-        "image": {
-          "src": "lv_assets/photo/6316/6316-bai/20260613101852-6316-bai (3).png",
+          "src": "lv_assets/photo/3623/3623-bai/20260707-53-3623-bai-01.png",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
@@ -380,7 +377,7 @@ window.HUAN_SITE_CONFIG = {
         "title": "Soft Topline",
         "desc": "白色平底，柔和口线。",
         "image": {
-          "src": "lv_assets/photo/9956/9956-bai/20260613101858-9956-bai (2).png",
+          "src": "lv_assets/photo/9956/9956-bai/20260707-53-9956-bai-01.png",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
@@ -393,7 +390,7 @@ window.HUAN_SITE_CONFIG = {
         "title": "Warm Metallic",
         "desc": "金色织面，双带节奏。",
         "image": {
-          "src": "lv_assets/photo/9957/9957-bai/20260613101912-9957-bai (1).png",
+          "src": "lv_assets/photo/9957/9957-bai/20260707-53-9957-bai-01.jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
@@ -406,7 +403,33 @@ window.HUAN_SITE_CONFIG = {
         "title": "Instep Line",
         "desc": "圆头横带，复古留白。",
         "image": {
-          "src": "lv_assets/photo/9963/9963-bai/20260613101917-9963-bai (2).png",
+          "src": "lv_assets/photo/9963/9963-bai/20260707-53-9963-bai-03.png",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        }
+      },
+      {
+        "productId": "2652",
+        "tag": "PATENT MARY JANE",
+        "title": "Gloss Mary Jane",
+        "desc": "亮面鞋身，金扣细带收住脚背。",
+        "image": {
+          "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-01.png",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        }
+      },
+      {
+        "productId": "6198",
+        "tag": "SOFT T-STRAP",
+        "title": "Soft T-Strap",
+        "desc": "分段皮面，T 字带轻贴脚背。",
+        "image": {
+          "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-01.png",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
@@ -441,54 +464,204 @@ window.HUAN_SITE_CONFIG = {
     "eyebrow": "PRODUCT DETAIL PAGE",
     "title": "AURORA LOAFER",
     "desc": "A refined product detail experience with gallery views, lifestyle scenes and material storytelling.",
-    "mainImage": "lv_assets/photo/1003/1003-bai/1003-bai-1 (1).png",
+    "mainImage": {
+      "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-01.png",
+      "scale": 1,
+      "offsetX": 50,
+      "offsetY": 50,
+      "isUploaded": true
+    },
     "gallery": [
       {
         "image": {
-          "src": "lv_assets/photo/1003/1003-bai/1003-bai-1 (1).png",
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-01.png",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
-          "isUploaded": false
+          "isUploaded": true
         },
         "thumb": {
-          "src": "lv_assets/photo/1003/1003-bai/1003-bai-1 (1).png",
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-01.png",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
-          "isUploaded": false
+          "isUploaded": true
         }
       },
       {
         "image": {
-          "src": "lv_assets/photo/1003/1003-bai/1003-bai-1 (2).png",
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-02.png",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
-          "isUploaded": false
+          "isUploaded": true
         },
         "thumb": {
-          "src": "lv_assets/photo/1003/1003-bai/1003-bai-1 (2).png",
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-02.png",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
-          "isUploaded": false
+          "isUploaded": true
         }
       },
       {
         "image": {
-          "src": "lv_assets/photo/1003/1003-bai/1003-bai-1 (3).png",
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-03.png",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
-          "isUploaded": false
+          "isUploaded": true
         },
         "thumb": {
-          "src": "lv_assets/photo/1003/1003-bai/1003-bai-1 (3).png",
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-03.png",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
-          "isUploaded": false
+          "isUploaded": true
+        }
+      },
+      {
+        "image": {
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-04.png",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        },
+        "thumb": {
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-04.png",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        }
+      },
+      {
+        "image": {
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-05.png",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        },
+        "thumb": {
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-05.png",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        }
+      },
+      {
+        "image": {
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-06.png",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        },
+        "thumb": {
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-06.png",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        }
+      },
+      {
+        "image": {
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-07.png",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        },
+        "thumb": {
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-07.png",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        }
+      },
+      {
+        "image": {
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-08.jpg",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        },
+        "thumb": {
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-08.jpg",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        }
+      },
+      {
+        "image": {
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-09.png",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        },
+        "thumb": {
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-09.png",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        }
+      },
+      {
+        "image": {
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-10.png",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        },
+        "thumb": {
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-10.png",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        }
+      },
+      {
+        "image": {
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-11.png",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        },
+        "thumb": {
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-11.png",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        }
+      },
+      {
+        "image": {
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-12.png",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        },
+        "thumb": {
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-12.png",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
         }
       }
     ],
@@ -496,7 +669,7 @@ window.HUAN_SITE_CONFIG = {
       {
         "title": "Model 01",
         "image": {
-          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (1).png",
+          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (1).jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
@@ -506,7 +679,7 @@ window.HUAN_SITE_CONFIG = {
       {
         "title": "Model 02",
         "image": {
-          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (2).png",
+          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (2).jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
@@ -516,7 +689,7 @@ window.HUAN_SITE_CONFIG = {
       {
         "title": "Model 03",
         "image": {
-          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (3).png",
+          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (3).jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
@@ -526,7 +699,7 @@ window.HUAN_SITE_CONFIG = {
       {
         "title": "Model 04",
         "image": {
-          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (4).png",
+          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (4).jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
@@ -536,7 +709,7 @@ window.HUAN_SITE_CONFIG = {
       {
         "title": "Model 05",
         "image": {
-          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (5).png",
+          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (5).jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
@@ -546,7 +719,7 @@ window.HUAN_SITE_CONFIG = {
       {
         "title": "Model 06",
         "image": {
-          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (6).png",
+          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (6).jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
@@ -556,7 +729,7 @@ window.HUAN_SITE_CONFIG = {
       {
         "title": "Model 07",
         "image": {
-          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (7).png",
+          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (7).jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
@@ -566,7 +739,7 @@ window.HUAN_SITE_CONFIG = {
       {
         "title": "Model 08",
         "image": {
-          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (8).png",
+          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (8).jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
@@ -576,7 +749,7 @@ window.HUAN_SITE_CONFIG = {
       {
         "title": "Model 09",
         "image": {
-          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (9).png",
+          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (9).jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
@@ -586,7 +759,7 @@ window.HUAN_SITE_CONFIG = {
       {
         "title": "Model 10",
         "image": {
-          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (10).png",
+          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (10).jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
@@ -596,7 +769,7 @@ window.HUAN_SITE_CONFIG = {
       {
         "title": "Model 11",
         "image": {
-          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (11).png",
+          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (11).jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
@@ -672,7 +845,7 @@ window.HUAN_SITE_CONFIG = {
     "slices": [
       {
         "image": {
-          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (1).png",
+          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (1).jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
@@ -684,7 +857,7 @@ window.HUAN_SITE_CONFIG = {
       },
       {
         "image": {
-          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (2).png",
+          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (2).jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
@@ -696,7 +869,7 @@ window.HUAN_SITE_CONFIG = {
       },
       {
         "image": {
-          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (3).png",
+          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (3).jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
@@ -708,7 +881,7 @@ window.HUAN_SITE_CONFIG = {
       },
       {
         "image": {
-          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (4).png",
+          "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (4).jpg",
           "scale": 1,
           "offsetX": 50,
           "offsetY": 50,
@@ -724,14 +897,14 @@ window.HUAN_SITE_CONFIG = {
         "gallery": [
           {
             "image": {
-              "src": "lv_assets/photo/1003/1003-bai/20260613101958-1003-bai-1 (1).png",
+              "src": "lv_assets/photo/1003/1003-bai/20260707-53-1003-bai-01.jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
               "isUploaded": true
             },
             "thumb": {
-              "src": "lv_assets/photo/1003/1003-bai/20260613101958-1003-bai-1 (1).png",
+              "src": "lv_assets/photo/1003/1003-bai/20260707-53-1003-bai-01.jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -740,14 +913,14 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/1003/1003-bai/20260613102000-1003-bai-1 (2).png",
+              "src": "lv_assets/photo/1003/1003-bai/20260707-53-1003-bai-02.jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
               "isUploaded": true
             },
             "thumb": {
-              "src": "lv_assets/photo/1003/1003-bai/20260613102000-1003-bai-1 (2).png",
+              "src": "lv_assets/photo/1003/1003-bai/20260707-53-1003-bai-02.jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -756,14 +929,110 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/1003/1003-bai/20260613102002-1003-bai-1 (3).png",
+              "src": "lv_assets/photo/1003/1003-bai/20260707-53-1003-bai-03.jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
               "isUploaded": true
             },
             "thumb": {
-              "src": "lv_assets/photo/1003/1003-bai/20260613102002-1003-bai-1 (3).png",
+              "src": "lv_assets/photo/1003/1003-bai/20260707-53-1003-bai-03.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/1003/1003-bai/20260707-53-1003-bai-04.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/1003/1003-bai/20260707-53-1003-bai-04.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/1003/1003-bai/20260707-53-1003-bai-05.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/1003/1003-bai/20260707-53-1003-bai-05.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/1003/1003-bai/20260707-53-1003-bai-06.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/1003/1003-bai/20260707-53-1003-bai-06.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/1003/1003-bai/20260707-53-1003-bai-07.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/1003/1003-bai/20260707-53-1003-bai-07.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/1003/1003-bai/20260707-53-1003-bai-08.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/1003/1003-bai/20260707-53-1003-bai-08.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/1003/1003-bai/20260707-53-1003-bai-09.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/1003/1003-bai/20260707-53-1003-bai-09.jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -775,7 +1044,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Ivory instep",
             "image": {
-              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (1).png",
+              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (1).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -785,7 +1054,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Soft side light",
             "image": {
-              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (2).png",
+              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (2).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -795,7 +1064,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Stitched curve",
             "image": {
-              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (3).png",
+              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (3).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -805,7 +1074,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Low heel line",
             "image": {
-              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (4).png",
+              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (4).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -815,7 +1084,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Quiet profile",
             "image": {
-              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (5).png",
+              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (5).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -825,7 +1094,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Pale leather",
             "image": {
-              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (6).png",
+              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (6).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -835,7 +1104,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Measured step",
             "image": {
-              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (7).png",
+              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (7).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -845,7 +1114,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Clean strap",
             "image": {
-              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (8).png",
+              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (8).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -855,7 +1124,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Rounded front",
             "image": {
-              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (9).png",
+              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (9).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -865,7 +1134,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Studio still",
             "image": {
-              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (10).png",
+              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (10).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -875,7 +1144,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Tailored ease",
             "image": {
-              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (11).png",
+              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (11).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -951,7 +1220,7 @@ window.HUAN_SITE_CONFIG = {
         "slices": [
           {
             "image": {
-              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (1).png",
+              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (1).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 27,
@@ -963,7 +1232,7 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (2).png",
+              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (2).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 33,
@@ -975,7 +1244,7 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (3).png",
+              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (3).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 36,
@@ -987,7 +1256,7 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (4).png",
+              "src": "lv_assets/photo/1003/1003-mode/1003-mode-1 (4).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 25,
@@ -999,20 +1268,27 @@ window.HUAN_SITE_CONFIG = {
           }
         ],
         "story": "Ivory Line",
-        "intro": "画面中的白色鞋面没有强烈反光，缝线、鞋头和低跟被保留在清晰的轮廓里。它更像一双为日常套装准备的轻量 Mary Jane。"
+        "intro": "画面中的白色鞋面没有强烈反光，缝线、鞋头和低跟被保留在清晰的轮廓里。它更像一双为日常套装准备的轻量 Mary Jane。",
+        "mainImage": {
+          "src": "lv_assets/photo/1003/1003-bai/20260707-53-1003-bai-01.jpg",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        }
       },
       "1008": {
         "gallery": [
           {
             "image": {
-              "src": "lv_assets/photo/1008/1008-bai/20260613102109-1008-bai (1).png",
+              "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-01.png",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
               "isUploaded": true
             },
             "thumb": {
-              "src": "lv_assets/photo/1008/1008-bai/20260613102109-1008-bai (1).png",
+              "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-01.png",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1021,14 +1297,174 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/1008/1008-bai/20260613102111-1008-bai (2).png",
+              "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-02.png",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
               "isUploaded": true
             },
             "thumb": {
-              "src": "lv_assets/photo/1008/1008-bai/20260613102111-1008-bai (2).png",
+              "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-02.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-03.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-03.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-04.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-04.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-05.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-05.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-06.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-06.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-07.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-07.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-08.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-08.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-09.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-09.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-10.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-10.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-11.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-11.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-12.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-12.png",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1040,7 +1476,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Patent instep",
             "image": {
-              "src": "lv_assets/photo/1008/1008-mode/1008-mode (1).png",
+              "src": "lv_assets/photo/1008/1008-mode/1008-mode (1).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1050,7 +1486,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Skirt movement",
             "image": {
-              "src": "lv_assets/photo/1008/1008-mode/1008-mode (2).png",
+              "src": "lv_assets/photo/1008/1008-mode/1008-mode (2).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1060,7 +1496,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Warm interior",
             "image": {
-              "src": "lv_assets/photo/1008/1008-mode/1008-mode (3).png",
+              "src": "lv_assets/photo/1008/1008-mode/1008-mode (3).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1070,7 +1506,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "T-bar close-up",
             "image": {
-              "src": "lv_assets/photo/1008/1008-mode/1008-mode (4).png",
+              "src": "lv_assets/photo/1008/1008-mode/1008-mode (4).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1080,7 +1516,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Low block heel",
             "image": {
-              "src": "lv_assets/photo/1008/1008-mode/1008-mode (5).png",
+              "src": "lv_assets/photo/1008/1008-mode/1008-mode (5).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1090,7 +1526,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Black line",
             "image": {
-              "src": "lv_assets/photo/1008/1008-mode/1008-mode (6).png",
+              "src": "lv_assets/photo/1008/1008-mode/1008-mode (6).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1100,7 +1536,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Soft shadow",
             "image": {
-              "src": "lv_assets/photo/1008/1008-mode/1008-mode (7).png",
+              "src": "lv_assets/photo/1008/1008-mode/1008-mode (7).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1110,7 +1546,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Walking frame",
             "image": {
-              "src": "lv_assets/photo/1008/1008-mode/1008-mode (8).png",
+              "src": "lv_assets/photo/1008/1008-mode/1008-mode (8).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1120,7 +1556,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "White shirt contrast",
             "image": {
-              "src": "lv_assets/photo/1008/1008-mode/1008-mode (9).png",
+              "src": "lv_assets/photo/1008/1008-mode/1008-mode (9).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1196,7 +1632,7 @@ window.HUAN_SITE_CONFIG = {
         "slices": [
           {
             "image": {
-              "src": "lv_assets/photo/1008/1008-mode/1008-mode (1).png",
+              "src": "lv_assets/photo/1008/1008-mode/1008-mode (1).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 28,
@@ -1208,7 +1644,7 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/1008/1008-mode/20260613102131-1008-mode (6).png",
+              "src": "lv_assets/photo/1008/1008-mode/20260613102131-1008-mode (6).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 31,
@@ -1220,7 +1656,7 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/1008/1008-mode/1008-mode (3).png",
+              "src": "lv_assets/photo/1008/1008-mode/1008-mode (3).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 26,
@@ -1232,7 +1668,7 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/1008/1008-mode/1008-mode (4).png",
+              "src": "lv_assets/photo/1008/1008-mode/1008-mode (4).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 26,
@@ -1244,20 +1680,700 @@ window.HUAN_SITE_CONFIG = {
           }
         ],
         "story": "Polished Movement",
-        "intro": "亮面材质会随着步态捕捉光线，低跟则让整体姿态保持平衡。画面中的白衬衫与黑裙削弱了装饰感，使鞋的线条更集中。"
+        "intro": "亮面材质会随着步态捕捉光线，低跟则让整体姿态保持平衡。画面中的白衬衫与黑裙削弱了装饰感，使鞋的线条更集中。",
+        "mainImage": {
+          "src": "lv_assets/photo/1008/1008-bai/20260707-53-1008-bai-01.png",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        }
+      },
+      "2652": {
+        "gallery": [
+          {
+            "image": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-01.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-01.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-02.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-02.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-03.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-03.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-04.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-04.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-05.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-05.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-06.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-06.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-07.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-07.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-08.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-08.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-09.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-09.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-10.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-10.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-11.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-11.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-12.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-12.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-13.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-13.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-14.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-14.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-15.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-15.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-16.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-16.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-17.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-17.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-18.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-18.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-19.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-19.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-20.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-20.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          }
+        ],
+        "modelCards": [
+          {
+            "title": "Side polish",
+            "image": {
+              "src": "lv_assets/photo/2652/2652-mode/2652-mode (1).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 35,
+              "isUploaded": true
+            },
+            "productId": "2652"
+          },
+          {
+            "title": "Buckle pause",
+            "image": {
+              "src": "lv_assets/photo/2652/2652-mode/2652-mode (2).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "2652"
+          },
+          {
+            "title": "Low block heel",
+            "image": {
+              "src": "lv_assets/photo/2652/2652-mode/2652-mode (3).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "2652"
+          },
+          {
+            "title": "Patent texture",
+            "image": {
+              "src": "lv_assets/photo/2652/2652-mode/2652-mode (4).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "2652"
+          },
+          {
+            "title": "Clean topline",
+            "image": {
+              "src": "lv_assets/photo/2652/2652-mode/2652-mode (5).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "2652"
+          },
+          {
+            "title": "Quiet step",
+            "image": {
+              "src": "lv_assets/photo/2652/2652-mode/2652-mode (6).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "2652"
+          },
+          {
+            "title": "Soft profile",
+            "image": {
+              "src": "lv_assets/photo/2652/2652-mode/2652-mode (7).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "2652"
+          },
+          {
+            "title": "Gold accent",
+            "image": {
+              "src": "lv_assets/photo/2652/2652-mode/2652-mode (8).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "2652"
+          },
+          {
+            "title": "Side polish",
+            "image": {
+              "src": "lv_assets/photo/2652/2652-mode/2652-mode (9).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "2652"
+          },
+          {
+            "title": "Buckle pause",
+            "image": {
+              "src": "lv_assets/photo/2652/2652-mode/2652-mode (10).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "2652"
+          },
+          {
+            "title": "Low block heel",
+            "image": {
+              "src": "lv_assets/photo/2652/2652-mode/2652-mode (11).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "2652"
+          },
+          {
+            "title": "Patent texture",
+            "image": {
+              "src": "lv_assets/photo/2652/2652-mode/2652-mode (12).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "2652"
+          },
+          {
+            "title": "Clean topline",
+            "image": {
+              "src": "lv_assets/photo/2652/2652-mode/2652-mode (13).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "2652"
+          },
+          {
+            "title": "Quiet step",
+            "image": {
+              "src": "lv_assets/photo/2652/2652-mode/2652-mode (14).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "2652"
+          },
+          {
+            "title": "Soft profile",
+            "image": {
+              "src": "lv_assets/photo/2652/2652-mode/2652-mode (15).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "2652"
+          },
+          {
+            "title": "Gold accent",
+            "image": {
+              "src": "lv_assets/photo/2652/2652-mode/2652-mode (16).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "2652"
+          },
+          {
+            "title": "Side polish",
+            "image": {
+              "src": "lv_assets/photo/2652/2652-mode/2652-mode (17).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "2652"
+          },
+          {
+            "title": "Buckle pause",
+            "image": {
+              "src": "lv_assets/photo/2652/2652-mode/2652-mode (18).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "2652"
+          }
+        ],
+        "detailImages": [
+          {
+            "src": "lv_assets/photo/2652/2652-pdd/2652-pdd (1).jpg",
+            "productId": "2652"
+          },
+          {
+            "src": "lv_assets/photo/2652/2652-pdd/2652-pdd (2).jpg",
+            "productId": "2652"
+          },
+          {
+            "src": "lv_assets/photo/2652/2652-pdd/2652-pdd (3).jpg",
+            "productId": "2652"
+          },
+          {
+            "src": "lv_assets/photo/2652/2652-pdd/2652-pdd (4).jpg",
+            "productId": "2652"
+          },
+          {
+            "src": "lv_assets/photo/2652/2652-pdd/2652-pdd (5).jpg",
+            "productId": "2652"
+          },
+          {
+            "src": "lv_assets/photo/2652/2652-pdd/2652-pdd (6).jpg",
+            "productId": "2652"
+          },
+          {
+            "src": "lv_assets/photo/2652/2652-pdd/2652-pdd (7).jpg",
+            "productId": "2652"
+          },
+          {
+            "src": "lv_assets/photo/2652/2652-pdd/2652-pdd (8).jpg",
+            "productId": "2652"
+          },
+          {
+            "src": "lv_assets/photo/2652/2652-pdd/2652-pdd (9).jpg",
+            "productId": "2652"
+          },
+          {
+            "src": "lv_assets/photo/2652/2652-pdd/2652-pdd (10).jpg",
+            "productId": "2652"
+          },
+          {
+            "src": "lv_assets/photo/2652/2652-pdd/2652-pdd (11).jpg",
+            "productId": "2652"
+          },
+          {
+            "src": "lv_assets/photo/2652/2652-pdd/2652-pdd (12).jpg",
+            "productId": "2652"
+          },
+          {
+            "src": "lv_assets/photo/2652/2652-pdd/2652-pdd (13).jpg",
+            "productId": "2652"
+          },
+          {
+            "src": "lv_assets/photo/2652/2652-pdd/2652-pdd (14).jpg",
+            "productId": "2652"
+          },
+          {
+            "src": "lv_assets/photo/2652/2652-pdd/2652-pdd (15).jpg",
+            "productId": "2652"
+          },
+          {
+            "src": "lv_assets/photo/2652/2652-pdd/2652-pdd (16).jpg",
+            "productId": "2652"
+          },
+          {
+            "src": "lv_assets/photo/2652/2652-pdd/2652-pdd (17).jpg",
+            "productId": "2652"
+          },
+          {
+            "src": "lv_assets/photo/2652/2652-pdd/2652-pdd (18).jpg",
+            "productId": "2652"
+          },
+          {
+            "src": "lv_assets/photo/2652/2652-pdd/2652-pdd (19).jpg",
+            "productId": "2652"
+          },
+          {
+            "src": "lv_assets/photo/2652/2652-pdd/2652-pdd (20).jpg",
+            "productId": "2652"
+          },
+          {
+            "src": "lv_assets/photo/2652/2652-pdd/2652-pdd (21).jpg",
+            "productId": "2652"
+          },
+          {
+            "src": "lv_assets/photo/2652/2652-pdd/2652-pdd (1).jpg",
+            "productId": "2652"
+          }
+        ],
+        "slices": [
+          {
+            "image": {
+              "src": "lv_assets/photo/2652/2652-mode/2652-mode (1).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 35,
+              "isUploaded": true
+            },
+            "title": "Buckle Pause",
+            "desc": "金属扣在脚背侧面形成小而明确的停顿，平衡亮面材质的光泽。",
+            "productId": "2652"
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/2652/2652-mode/2652-mode (2).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "title": "Low Heel Line",
+            "desc": "中低跟拉长脚背比例，同时保留稳定的日常步态。",
+            "productId": "2652"
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/2652/2652-mode/2652-mode (3).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "title": "Patent Surface",
+            "desc": "亮面纹理带来清晰反光，轮廓仍然保持克制。",
+            "productId": "2652"
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/2652/2652-mode/2652-mode (4).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "title": "Mary Jane Frame",
+            "desc": "横向细带让鞋型更完整，适合裙装与长裤之间切换。",
+            "productId": "2652"
+          }
+        ],
+        "story": "Polished Buckle Line",
+        "intro": "亮面材质带出清晰反光，细窄横带和金属扣把视觉重点落在脚背。中低跟保持利落比例，适合从通勤到轻正式场景切换。",
+        "mainImage": {
+          "src": "lv_assets/photo/2652/2652-bai/20260707-53-2652-bai-01.png",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        }
       },
       "3009": {
         "gallery": [
           {
             "image": {
-              "src": "lv_assets/photo/3009/3009-bai/20260613102222-3009-bai (1).png",
+              "src": "lv_assets/photo/3009/3009-bai/20260707-53-3009-bai-01.jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
               "isUploaded": true
             },
             "thumb": {
-              "src": "lv_assets/photo/3009/3009-bai/20260613102222-3009-bai (1).png",
+              "src": "lv_assets/photo/3009/3009-bai/20260707-53-3009-bai-01.jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1266,14 +2382,14 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/3009/3009-bai/20260613102224-3009-bai (2).png",
+              "src": "lv_assets/photo/3009/3009-bai/20260707-53-3009-bai-02.jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
               "isUploaded": true
             },
             "thumb": {
-              "src": "lv_assets/photo/3009/3009-bai/20260613102224-3009-bai (2).png",
+              "src": "lv_assets/photo/3009/3009-bai/20260707-53-3009-bai-02.jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1282,14 +2398,14 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/3009/3009-bai/20260613102227-3009-bai (3).png",
+              "src": "lv_assets/photo/3009/3009-bai/20260707-53-3009-bai-03.jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
               "isUploaded": true
             },
             "thumb": {
-              "src": "lv_assets/photo/3009/3009-bai/20260613102227-3009-bai (3).png",
+              "src": "lv_assets/photo/3009/3009-bai/20260707-53-3009-bai-03.jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1298,14 +2414,142 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/3009/3009-bai/20260613102229-3009-bai (4).png",
+              "src": "lv_assets/photo/3009/3009-bai/20260707-53-3009-bai-04.jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
               "isUploaded": true
             },
             "thumb": {
-              "src": "lv_assets/photo/3009/3009-bai/20260613102229-3009-bai (4).png",
+              "src": "lv_assets/photo/3009/3009-bai/20260707-53-3009-bai-04.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/3009/3009-bai/20260707-53-3009-bai-05.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/3009/3009-bai/20260707-53-3009-bai-05.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/3009/3009-bai/20260707-53-3009-bai-06.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/3009/3009-bai/20260707-53-3009-bai-06.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/3009/3009-bai/20260707-53-3009-bai-07.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/3009/3009-bai/20260707-53-3009-bai-07.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/3009/3009-bai/20260707-53-3009-bai-08.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/3009/3009-bai/20260707-53-3009-bai-08.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/3009/3009-bai/20260707-53-3009-bai-09.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/3009/3009-bai/20260707-53-3009-bai-09.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/3009/3009-bai/20260707-53-3009-bai-10.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/3009/3009-bai/20260707-53-3009-bai-10.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/3009/3009-bai/20260707-53-3009-bai-11.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/3009/3009-bai/20260707-53-3009-bai-11.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/3009/3009-bai/20260707-53-3009-bai-12.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/3009/3009-bai/20260707-53-3009-bai-12.jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1317,7 +2561,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Silver weave",
             "image": {
-              "src": "lv_assets/photo/3009/3009-mode/3009-mode (1).png",
+              "src": "lv_assets/photo/3009/3009-mode/3009-mode (1).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1327,7 +2571,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Open vamp",
             "image": {
-              "src": "lv_assets/photo/3009/3009-mode/3009-mode (2).png",
+              "src": "lv_assets/photo/3009/3009-mode/3009-mode (2).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1337,7 +2581,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Slim strap",
             "image": {
-              "src": "lv_assets/photo/3009/3009-mode/3009-mode (3).png",
+              "src": "lv_assets/photo/3009/3009-mode/3009-mode (3).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1347,7 +2591,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Side angle",
             "image": {
-              "src": "lv_assets/photo/3009/3009-mode/3009-mode (4).png",
+              "src": "lv_assets/photo/3009/3009-mode/3009-mode (4).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1357,7 +2601,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Soft floor",
             "image": {
-              "src": "lv_assets/photo/3009/3009-mode/3009-mode (5).png",
+              "src": "lv_assets/photo/3009/3009-mode/3009-mode (5).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1367,7 +2611,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Bare ankle",
             "image": {
-              "src": "lv_assets/photo/3009/3009-mode/3009-mode (6).png",
+              "src": "lv_assets/photo/3009/3009-mode/3009-mode (6).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1377,7 +2621,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Light catch",
             "image": {
-              "src": "lv_assets/photo/3009/3009-mode/3009-mode (7).png",
+              "src": "lv_assets/photo/3009/3009-mode/3009-mode (7).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1387,7 +2631,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Rounded toe",
             "image": {
-              "src": "lv_assets/photo/3009/3009-mode/3009-mode (8).png",
+              "src": "lv_assets/photo/3009/3009-mode/3009-mode (8).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1397,7 +2641,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Low heel",
             "image": {
-              "src": "lv_assets/photo/3009/3009-mode/3009-mode (9).png",
+              "src": "lv_assets/photo/3009/3009-mode/3009-mode (9).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1407,7 +2651,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Pale pairing",
             "image": {
-              "src": "lv_assets/photo/3009/3009-mode/3009-mode (10).png",
+              "src": "lv_assets/photo/3009/3009-mode/3009-mode (10).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1483,7 +2727,7 @@ window.HUAN_SITE_CONFIG = {
         "slices": [
           {
             "image": {
-              "src": "lv_assets/photo/3009/3009-mode/3009-mode (1).png",
+              "src": "lv_assets/photo/3009/3009-mode/3009-mode (1).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 42,
@@ -1495,7 +2739,7 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/3009/3009-mode/3009-mode (2).png",
+              "src": "lv_assets/photo/3009/3009-mode/3009-mode (2).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1507,7 +2751,7 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/3009/3009-mode/3009-mode (3).png",
+              "src": "lv_assets/photo/3009/3009-mode/3009-mode (3).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1519,7 +2763,7 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/3009/3009-mode/3009-mode (4).png",
+              "src": "lv_assets/photo/3009/3009-mode/3009-mode (4).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 27,
@@ -1531,20 +2775,27 @@ window.HUAN_SITE_CONFIG = {
           }
         ],
         "story": "Air Between",
-        "intro": "编织结构让光线穿过鞋面，银色表面不再厚重。鞋头保持圆润，细带与低跟让整体比例更轻。"
+        "intro": "编织结构让光线穿过鞋面，银色表面不再厚重。鞋头保持圆润，细带与低跟让整体比例更轻。",
+        "mainImage": {
+          "src": "lv_assets/photo/3009/3009-bai/20260707-53-3009-bai-01.jpg",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        }
       },
       "3605": {
         "gallery": [
           {
             "image": {
-              "src": "lv_assets/photo/3605/3605-bai/3605-bai (1).png",
+              "src": "lv_assets/photo/3605/3605-bai/20260707-53-3605-bai-01.png",
               "scale": 1,
               "offsetX": 50,
-              "offsetY": 46,
+              "offsetY": 50,
               "isUploaded": true
             },
             "thumb": {
-              "src": "lv_assets/photo/3605/3605-bai/3605-bai (1).png",
+              "src": "lv_assets/photo/3605/3605-bai/20260707-53-3605-bai-01.png",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1553,14 +2804,126 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/3605/3605-bai/3605-bai (2).png",
+              "src": "lv_assets/photo/3605/3605-bai/20260707-53-3605-bai-02.png",
               "scale": 1,
               "offsetX": 50,
-              "offsetY": 46,
+              "offsetY": 50,
               "isUploaded": true
             },
             "thumb": {
-              "src": "lv_assets/photo/3605/3605-bai/3605-bai (2).png",
+              "src": "lv_assets/photo/3605/3605-bai/20260707-53-3605-bai-02.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/3605/3605-bai/20260707-53-3605-bai-03.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/3605/3605-bai/20260707-53-3605-bai-03.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/3605/3605-bai/20260707-53-3605-bai-04.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/3605/3605-bai/20260707-53-3605-bai-04.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/3605/3605-bai/20260707-53-3605-bai-05.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/3605/3605-bai/20260707-53-3605-bai-05.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/3605/3605-bai/20260707-53-3605-bai-06.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/3605/3605-bai/20260707-53-3605-bai-06.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/3605/3605-bai/20260707-53-3605-bai-07.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/3605/3605-bai/20260707-53-3605-bai-07.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/3605/3605-bai/20260707-53-3605-bai-08.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/3605/3605-bai/20260707-53-3605-bai-08.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/3605/3605-bai/20260707-53-3605-bai-09.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/3605/3605-bai/20260707-53-3605-bai-09.png",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1572,7 +2935,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Metallic mule",
             "image": {
-              "src": "lv_assets/photo/3605/3605-mode/3605-mode (1).png",
+              "src": "lv_assets/photo/3605/3605-mode/3605-mode (1).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1582,7 +2945,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Open back",
             "image": {
-              "src": "lv_assets/photo/3605/3605-mode/3605-mode (2).png",
+              "src": "lv_assets/photo/3605/3605-mode/3605-mode (2).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1592,7 +2955,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Buckle line",
             "image": {
-              "src": "lv_assets/photo/3605/3605-mode/3605-mode (3).png",
+              "src": "lv_assets/photo/3605/3605-mode/3605-mode (3).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1602,7 +2965,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Woven surface",
             "image": {
-              "src": "lv_assets/photo/3605/3605-mode/3605-mode (4).png",
+              "src": "lv_assets/photo/3605/3605-mode/3605-mode (4).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1612,7 +2975,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Low square heel",
             "image": {
-              "src": "lv_assets/photo/3605/3605-mode/3605-mode (5).png",
+              "src": "lv_assets/photo/3605/3605-mode/3605-mode (5).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1622,7 +2985,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Bare-ankle frame",
             "image": {
-              "src": "lv_assets/photo/3605/3605-mode/3605-mode (6).png",
+              "src": "lv_assets/photo/3605/3605-mode/3605-mode (6).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1632,7 +2995,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Side profile",
             "image": {
-              "src": "lv_assets/photo/3605/3605-mode/3605-mode (7).png",
+              "src": "lv_assets/photo/3605/3605-mode/3605-mode (7).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1642,7 +3005,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Soft shine",
             "image": {
-              "src": "lv_assets/photo/3605/3605-mode/3605-mode (8).png",
+              "src": "lv_assets/photo/3605/3605-mode/3605-mode (8).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1652,7 +3015,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Studio silver",
             "image": {
-              "src": "lv_assets/photo/3605/3605-mode/3605-mode (9).png",
+              "src": "lv_assets/photo/3605/3605-mode/3605-mode (9).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1662,7 +3025,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Relaxed step",
             "image": {
-              "src": "lv_assets/photo/3605/3605-mode/3605-mode (10).png",
+              "src": "lv_assets/photo/3605/3605-mode/3605-mode (10).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1672,7 +3035,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Strap study",
             "image": {
-              "src": "lv_assets/photo/3605/3605-mode/3605-mode (11).png",
+              "src": "lv_assets/photo/3605/3605-mode/3605-mode (11).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1682,7 +3045,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Quiet angle",
             "image": {
-              "src": "lv_assets/photo/3605/3605-mode/3605-mode (12).png",
+              "src": "lv_assets/photo/3605/3605-mode/3605-mode (12).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1751,7 +3114,7 @@ window.HUAN_SITE_CONFIG = {
         "slices": [
           {
             "image": {
-              "src": "lv_assets/photo/3605/3605-mode/3605-mode (1).png",
+              "src": "lv_assets/photo/3605/3605-mode/3605-mode (1).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 31,
@@ -1763,7 +3126,7 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/3605/3605-mode/3605-mode (2).png",
+              "src": "lv_assets/photo/3605/3605-mode/3605-mode (2).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 28,
@@ -1775,7 +3138,7 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/3605/3605-mode/20260613102335-3605-mode (4).png",
+              "src": "lv_assets/photo/3605/3605-mode/20260613102335-3605-mode (4).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1787,7 +3150,7 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/3605/3605-mode/20260613102340-3605-mode (12).png",
+              "src": "lv_assets/photo/3605/3605-mode/20260613102340-3605-mode (12).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 38,
@@ -1799,20 +3162,27 @@ window.HUAN_SITE_CONFIG = {
           }
         ],
         "story": "Bare-Ankle Ease",
-        "intro": "这组画面以裸踝和银色编织为核心。开后跟让鞋型减少束缚，横向绑带和小方扣把视觉重新收回脚背。"
+        "intro": "这组画面以裸踝和银色编织为核心。开后跟让鞋型减少束缚，横向绑带和小方扣把视觉重新收回脚背。",
+        "mainImage": {
+          "src": "lv_assets/photo/3605/3605-bai/20260707-53-3605-bai-01.png",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        }
       },
       "3623": {
         "gallery": [
           {
             "image": {
-              "src": "lv_assets/photo/3623/3623-bai/20260613102350-3623-bai (1).png",
+              "src": "lv_assets/photo/3623/3623-bai/20260707-53-3623-bai-01.png",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
               "isUploaded": true
             },
             "thumb": {
-              "src": "lv_assets/photo/3623/3623-bai/20260613102350-3623-bai (1).png",
+              "src": "lv_assets/photo/3623/3623-bai/20260707-53-3623-bai-01.png",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1821,14 +3191,14 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/3623/3623-bai/20260613102352-3623-bai (2).png",
+              "src": "lv_assets/photo/3623/3623-bai/20260707-53-3623-bai-02.png",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
               "isUploaded": true
             },
             "thumb": {
-              "src": "lv_assets/photo/3623/3623-bai/20260613102352-3623-bai (2).png",
+              "src": "lv_assets/photo/3623/3623-bai/20260707-53-3623-bai-02.png",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1837,14 +3207,14 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/3623/3623-bai/20260613102354-3623-bai (3).png",
+              "src": "lv_assets/photo/3623/3623-bai/20260707-53-3623-bai-03.png",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
               "isUploaded": true
             },
             "thumb": {
-              "src": "lv_assets/photo/3623/3623-bai/20260613102354-3623-bai (3).png",
+              "src": "lv_assets/photo/3623/3623-bai/20260707-53-3623-bai-03.png",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1853,14 +3223,110 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/3623/3623-bai/20260613102356-3623-bai (4).png",
+              "src": "lv_assets/photo/3623/3623-bai/20260707-53-3623-bai-04.png",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
               "isUploaded": true
             },
             "thumb": {
-              "src": "lv_assets/photo/3623/3623-bai/20260613102356-3623-bai (4).png",
+              "src": "lv_assets/photo/3623/3623-bai/20260707-53-3623-bai-04.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/3623/3623-bai/20260707-53-3623-bai-05.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/3623/3623-bai/20260707-53-3623-bai-05.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/3623/3623-bai/20260707-53-3623-bai-06.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/3623/3623-bai/20260707-53-3623-bai-06.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/3623/3623-bai/20260707-53-3623-bai-07.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/3623/3623-bai/20260707-53-3623-bai-07.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/3623/3623-bai/20260707-53-3623-bai-08.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/3623/3623-bai/20260707-53-3623-bai-08.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/3623/3623-bai/20260707-53-3623-bai-09.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/3623/3623-bai/20260707-53-3623-bai-09.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/3623/3623-bai/20260707-53-3623-bai-10.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/3623/3623-bai/20260707-53-3623-bai-10.png",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1872,7 +3338,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Pearl weave",
             "image": {
-              "src": "lv_assets/photo/3623/3623-mode/3623-mode (1).png",
+              "src": "lv_assets/photo/3623/3623-mode/3623-mode (1).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1882,7 +3348,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Slip-on line",
             "image": {
-              "src": "lv_assets/photo/3623/3623-mode/3623-mode (2).png",
+              "src": "lv_assets/photo/3623/3623-mode/3623-mode (2).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1892,7 +3358,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Linen pairing",
             "image": {
-              "src": "lv_assets/photo/3623/3623-mode/3623-mode (3).png",
+              "src": "lv_assets/photo/3623/3623-mode/3623-mode (3).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1902,7 +3368,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Soft corner",
             "image": {
-              "src": "lv_assets/photo/3623/3623-mode/3623-mode (4).png",
+              "src": "lv_assets/photo/3623/3623-mode/3623-mode (4).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1912,7 +3378,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Rounded toe",
             "image": {
-              "src": "lv_assets/photo/3623/3623-mode/3623-mode (5).png",
+              "src": "lv_assets/photo/3623/3623-mode/3623-mode (5).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1922,7 +3388,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Low heel",
             "image": {
-              "src": "lv_assets/photo/3623/3623-mode/3623-mode (6).png",
+              "src": "lv_assets/photo/3623/3623-mode/3623-mode (6).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1932,7 +3398,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Pale surface",
             "image": {
-              "src": "lv_assets/photo/3623/3623-mode/3623-mode (7).png",
+              "src": "lv_assets/photo/3623/3623-mode/3623-mode (7).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1942,7 +3408,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Bare foot mood",
             "image": {
-              "src": "lv_assets/photo/3623/3623-mode/3623-mode (8).png",
+              "src": "lv_assets/photo/3623/3623-mode/3623-mode (8).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1952,7 +3418,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Studio still",
             "image": {
-              "src": "lv_assets/photo/3623/3623-mode/3623-mode (9).png",
+              "src": "lv_assets/photo/3623/3623-mode/3623-mode (9).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -1962,7 +3428,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Light shadow",
             "image": {
-              "src": "lv_assets/photo/3623/3623-mode/3623-mode (10).png",
+              "src": "lv_assets/photo/3623/3623-mode/3623-mode (10).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2059,7 +3525,7 @@ window.HUAN_SITE_CONFIG = {
         "slices": [
           {
             "image": {
-              "src": "lv_assets/photo/3623/3623-mode/3623-mode (1).png",
+              "src": "lv_assets/photo/3623/3623-mode/3623-mode (1).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 28,
@@ -2071,7 +3537,7 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/3623/3623-mode/3623-mode (2).png",
+              "src": "lv_assets/photo/3623/3623-mode/3623-mode (2).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2083,7 +3549,7 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/3623/3623-mode/3623-mode (3).png",
+              "src": "lv_assets/photo/3623/3623-mode/3623-mode (3).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 27,
@@ -2095,7 +3561,7 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/3623/3623-mode/3623-mode (4).png",
+              "src": "lv_assets/photo/3623/3623-mode/3623-mode (4).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 37,
@@ -2107,20 +3573,631 @@ window.HUAN_SITE_CONFIG = {
           }
         ],
         "story": "Pale Texture",
-        "intro": "鞋面在白色与银色之间保持微妙层次，圆头和低跟降低了正式感。画面中的布料与浅色背景让它显得安静而易搭。"
+        "intro": "鞋面在白色与银色之间保持微妙层次，圆头和低跟降低了正式感。画面中的布料与浅色背景让它显得安静而易搭。",
+        "mainImage": {
+          "src": "lv_assets/photo/3623/3623-bai/20260707-53-3623-bai-01.png",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        }
+      },
+      "6198": {
+        "gallery": [
+          {
+            "image": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-01.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-01.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-02.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-02.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-03.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-03.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-04.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-04.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-05.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-05.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-06.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-06.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-07.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-07.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-08.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-08.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-09.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-09.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-10.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-10.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-11.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-11.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-12.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-12.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-13.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-13.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-14.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-14.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-15.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-15.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          }
+        ],
+        "modelCards": [
+          {
+            "title": "T-strap line",
+            "image": {
+              "src": "lv_assets/photo/6198/6198-mode/6198-mode (1).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 35,
+              "isUploaded": true
+            },
+            "productId": "6198"
+          },
+          {
+            "title": "Segmented upper",
+            "image": {
+              "src": "lv_assets/photo/6198/6198-mode/6198-mode (2).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "6198"
+          },
+          {
+            "title": "Side buckle",
+            "image": {
+              "src": "lv_assets/photo/6198/6198-mode/6198-mode (3).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "6198"
+          },
+          {
+            "title": "Soft ivory",
+            "image": {
+              "src": "lv_assets/photo/6198/6198-mode/6198-mode (4).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "6198"
+          },
+          {
+            "title": "Flat profile",
+            "image": {
+              "src": "lv_assets/photo/6198/6198-mode/6198-mode (5).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "6198"
+          },
+          {
+            "title": "Open instep",
+            "image": {
+              "src": "lv_assets/photo/6198/6198-mode/6198-mode (6).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "6198"
+          },
+          {
+            "title": "Quiet leather",
+            "image": {
+              "src": "lv_assets/photo/6198/6198-mode/6198-mode (7).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "6198"
+          },
+          {
+            "title": "Measured step",
+            "image": {
+              "src": "lv_assets/photo/6198/6198-mode/6198-mode (8).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "6198"
+          },
+          {
+            "title": "T-strap line",
+            "image": {
+              "src": "lv_assets/photo/6198/6198-mode/6198-mode (9).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "6198"
+          },
+          {
+            "title": "Segmented upper",
+            "image": {
+              "src": "lv_assets/photo/6198/6198-mode/6198-mode (10).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "6198"
+          },
+          {
+            "title": "Side buckle",
+            "image": {
+              "src": "lv_assets/photo/6198/6198-mode/6198-mode (11).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "6198"
+          },
+          {
+            "title": "Soft ivory",
+            "image": {
+              "src": "lv_assets/photo/6198/6198-mode/6198-mode (12).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "6198"
+          },
+          {
+            "title": "Flat profile",
+            "image": {
+              "src": "lv_assets/photo/6198/6198-mode/6198-mode (13).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "6198"
+          },
+          {
+            "title": "Open instep",
+            "image": {
+              "src": "lv_assets/photo/6198/6198-mode/6198-mode (14).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "6198"
+          },
+          {
+            "title": "Quiet leather",
+            "image": {
+              "src": "lv_assets/photo/6198/6198-mode/6198-mode (15).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "6198"
+          },
+          {
+            "title": "T-strap line",
+            "image": {
+              "src": "lv_assets/photo/6198/6198-mode/6198-mode (16).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "6198"
+          },
+          {
+            "title": "Segmented upper",
+            "image": {
+              "src": "lv_assets/photo/6198/6198-mode/6198-mode (17).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "6198"
+          },
+          {
+            "title": "Side buckle",
+            "image": {
+              "src": "lv_assets/photo/6198/6198-mode/6198-mode (18).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "6198"
+          },
+          {
+            "title": "Soft ivory",
+            "image": {
+              "src": "lv_assets/photo/6198/6198-mode/6198-mode (19).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "productId": "6198"
+          }
+        ],
+        "detailImages": [
+          {
+            "src": "lv_assets/photo/6198/6198-pdd/6198-pdd (1).jpg",
+            "productId": "6198"
+          },
+          {
+            "src": "lv_assets/photo/6198/6198-pdd/6198-pdd (2).jpg",
+            "productId": "6198"
+          },
+          {
+            "src": "lv_assets/photo/6198/6198-pdd/6198-pdd (3).jpg",
+            "productId": "6198"
+          },
+          {
+            "src": "lv_assets/photo/6198/6198-pdd/6198-pdd (4).jpg",
+            "productId": "6198"
+          },
+          {
+            "src": "lv_assets/photo/6198/6198-pdd/6198-pdd (5).jpg",
+            "productId": "6198"
+          },
+          {
+            "src": "lv_assets/photo/6198/6198-pdd/6198-pdd (6).jpg",
+            "productId": "6198"
+          },
+          {
+            "src": "lv_assets/photo/6198/6198-pdd/6198-pdd (7).jpg",
+            "productId": "6198"
+          },
+          {
+            "src": "lv_assets/photo/6198/6198-pdd/6198-pdd (8).jpg",
+            "productId": "6198"
+          },
+          {
+            "src": "lv_assets/photo/6198/6198-pdd/6198-pdd (9).jpg",
+            "productId": "6198"
+          },
+          {
+            "src": "lv_assets/photo/6198/6198-pdd/6198-pdd (10).jpg",
+            "productId": "6198"
+          },
+          {
+            "src": "lv_assets/photo/6198/6198-pdd/6198-pdd (11).jpg",
+            "productId": "6198"
+          },
+          {
+            "src": "lv_assets/photo/6198/6198-pdd/6198-pdd (12).jpg",
+            "productId": "6198"
+          },
+          {
+            "src": "lv_assets/photo/6198/6198-pdd/6198-pdd (13).jpg",
+            "productId": "6198"
+          },
+          {
+            "src": "lv_assets/photo/6198/6198-pdd/6198-pdd (14).jpg",
+            "productId": "6198"
+          },
+          {
+            "src": "lv_assets/photo/6198/6198-pdd/6198-pdd (15).jpg",
+            "productId": "6198"
+          },
+          {
+            "src": "lv_assets/photo/6198/6198-pdd/6198-pdd (16).jpg",
+            "productId": "6198"
+          },
+          {
+            "src": "lv_assets/photo/6198/6198-pdd/6198-pdd (17).jpg",
+            "productId": "6198"
+          },
+          {
+            "src": "lv_assets/photo/6198/6198-pdd/6198-pdd (18).jpg",
+            "productId": "6198"
+          },
+          {
+            "src": "lv_assets/photo/6198/6198-pdd/6198-pdd (19).jpg",
+            "productId": "6198"
+          },
+          {
+            "src": "lv_assets/photo/6198/6198-pdd/6198-pdd (20).jpg",
+            "productId": "6198"
+          },
+          {
+            "src": "lv_assets/photo/6198/6198-pdd/6198-pdd (21).jpg",
+            "productId": "6198"
+          },
+          {
+            "src": "lv_assets/photo/6198/6198-pdd/6198-pdd (1).jpg",
+            "productId": "6198"
+          }
+        ],
+        "slices": [
+          {
+            "image": {
+              "src": "lv_assets/photo/6198/6198-mode/6198-mode (1).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 35,
+              "isUploaded": true
+            },
+            "title": "T-Strap Line",
+            "desc": "T 字带顺着脚背延伸，让分段鞋面保持清晰秩序。",
+            "productId": "6198"
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/6198/6198-mode/6198-mode (2).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "title": "Soft Upper",
+            "desc": "柔软皮面与浅色光线贴合，降低平底鞋的厚重感。",
+            "productId": "6198"
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/6198/6198-mode/6198-mode (3).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "title": "Side Buckle",
+            "desc": "侧扣在脚踝附近形成细节重点，线条安静但不单薄。",
+            "productId": "6198"
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/6198/6198-mode/6198-mode (4).jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "title": "Daily Ease",
+            "desc": "平底比例适合长时间行走，搭配裙装或阔腿裤都保持轻盈。",
+            "productId": "6198"
+          }
+        ],
+        "story": "Segmented Softness",
+        "intro": "柔软皮面被分段线条切开，T 字带从鞋头延伸到踝侧，让平底比例更轻。侧扣带来细节停顿，整体适合安静、舒展的日常穿着。",
+        "mainImage": {
+          "src": "lv_assets/photo/6198/6198-bai/20260707-53-6198-bai-01.png",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        }
       },
       "6316": {
         "gallery": [
           {
             "image": {
-              "src": "lv_assets/photo/6316/6316-bai/20260613102420-6316-bai (1).png",
+              "src": "lv_assets/photo/6316/6316-bai/20260613102420-6316-bai (1).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
               "isUploaded": true
             },
             "thumb": {
-              "src": "lv_assets/photo/6316/6316-bai/20260613102420-6316-bai (1).png",
+              "src": "lv_assets/photo/6316/6316-bai/20260613102420-6316-bai (1).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2129,14 +4206,14 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/6316/6316-bai/20260613102423-6316-bai (2).png",
+              "src": "lv_assets/photo/6316/6316-bai/20260613102423-6316-bai (2).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
               "isUploaded": true
             },
             "thumb": {
-              "src": "lv_assets/photo/6316/6316-bai/20260613102423-6316-bai (2).png",
+              "src": "lv_assets/photo/6316/6316-bai/20260613102423-6316-bai (2).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2145,14 +4222,14 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/6316/6316-bai/20260613102424-6316-bai (3).png",
+              "src": "lv_assets/photo/6316/6316-bai/20260613102424-6316-bai (3).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
               "isUploaded": true
             },
             "thumb": {
-              "src": "lv_assets/photo/6316/6316-bai/20260613102424-6316-bai (3).png",
+              "src": "lv_assets/photo/6316/6316-bai/20260613102424-6316-bai (3).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2164,7 +4241,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Noir weave",
             "image": {
-              "src": "lv_assets/photo/6316/6316-mode/20260613102501-6316-mode (1).png",
+              "src": "lv_assets/photo/6316/6316-mode/20260613102501-6316-mode (1).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2184,7 +4261,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Strap line",
             "image": {
-              "src": "lv_assets/photo/6316/6316-mode/20260613102505-6316-mode (3).png",
+              "src": "lv_assets/photo/6316/6316-mode/20260613102505-6316-mode (3).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 36,
@@ -2194,7 +4271,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Rounded front",
             "image": {
-              "src": "lv_assets/photo/6316/6316-mode/20260613102510-6316-mode (4).png",
+              "src": "lv_assets/photo/6316/6316-mode/20260613102510-6316-mode (4).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2204,7 +4281,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Low heel",
             "image": {
-              "src": "lv_assets/photo/6316/6316-mode/20260613102514-6316-mode (5).png",
+              "src": "lv_assets/photo/6316/6316-mode/20260613102514-6316-mode (5).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2214,7 +4291,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Graphic shadow",
             "image": {
-              "src": "lv_assets/photo/6316/6316-mode/20260613102534-6316-mode (6).png",
+              "src": "lv_assets/photo/6316/6316-mode/20260613102534-6316-mode (6).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2224,7 +4301,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Black surface",
             "image": {
-              "src": "lv_assets/photo/6316/6316-mode/6316-mode (7).png",
+              "src": "lv_assets/photo/6316/6316-mode/6316-mode (7).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2234,7 +4311,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Side step",
             "image": {
-              "src": "lv_assets/photo/6316/6316-mode/6316-mode (8).png",
+              "src": "lv_assets/photo/6316/6316-mode/6316-mode (8).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2244,7 +4321,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Tonal frame",
             "image": {
-              "src": "lv_assets/photo/6316/6316-mode/6316-mode (9).png",
+              "src": "lv_assets/photo/6316/6316-mode/6316-mode (9).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2254,7 +4331,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Measured profile",
             "image": {
-              "src": "lv_assets/photo/6316/6316-mode/6316-mode (10).png",
+              "src": "lv_assets/photo/6316/6316-mode/6316-mode (10).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2264,7 +4341,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Studio depth",
             "image": {
-              "src": "lv_assets/photo/6316/6316-mode/6316-mode (11).png",
+              "src": "lv_assets/photo/6316/6316-mode/6316-mode (11).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2274,7 +4351,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Compact shape",
             "image": {
-              "src": "lv_assets/photo/6316/6316-mode/6316-mode (12).png",
+              "src": "lv_assets/photo/6316/6316-mode/6316-mode (12).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2284,7 +4361,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Even line",
             "image": {
-              "src": "lv_assets/photo/6316/6316-mode/6316-mode (13).png",
+              "src": "lv_assets/photo/6316/6316-mode/6316-mode (13).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2294,7 +4371,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Close weave",
             "image": {
-              "src": "lv_assets/photo/6316/6316-mode/6316-mode (14).png",
+              "src": "lv_assets/photo/6316/6316-mode/6316-mode (14).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2370,7 +4447,7 @@ window.HUAN_SITE_CONFIG = {
         "slices": [
           {
             "image": {
-              "src": "lv_assets/photo/6316/6316-mode/6316-mode (1).png",
+              "src": "lv_assets/photo/6316/6316-mode/6316-mode (1).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 60,
@@ -2394,7 +4471,7 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/6316/6316-mode/6316-mode (3).png",
+              "src": "lv_assets/photo/6316/6316-mode/6316-mode (3).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 20,
@@ -2406,7 +4483,7 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/6316/6316-mode/6316-mode (4).png",
+              "src": "lv_assets/photo/6316/6316-mode/6316-mode (4).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 40,
@@ -2424,14 +4501,14 @@ window.HUAN_SITE_CONFIG = {
         "gallery": [
           {
             "image": {
-              "src": "lv_assets/photo/9956/9956-bai/20260613102617-9956-bai (2).png",
+              "src": "lv_assets/photo/9956/9956-bai/20260707-53-9956-bai-01.png",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
               "isUploaded": true
             },
             "thumb": {
-              "src": "lv_assets/photo/9956/9956-bai/20260613102617-9956-bai (2).png",
+              "src": "lv_assets/photo/9956/9956-bai/20260707-53-9956-bai-01.png",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2440,14 +4517,78 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/9956/9956-bai/20260613102615-9956-bai (1).png",
+              "src": "lv_assets/photo/9956/9956-bai/20260707-53-9956-bai-02.png",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
               "isUploaded": true
             },
             "thumb": {
-              "src": "lv_assets/photo/9956/9956-bai/20260613102615-9956-bai (1).png",
+              "src": "lv_assets/photo/9956/9956-bai/20260707-53-9956-bai-02.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/9956/9956-bai/20260707-53-9956-bai-03.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/9956/9956-bai/20260707-53-9956-bai-03.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/9956/9956-bai/20260707-53-9956-bai-04.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/9956/9956-bai/20260707-53-9956-bai-04.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/9956/9956-bai/20260707-53-9956-bai-05.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/9956/9956-bai/20260707-53-9956-bai-05.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/9956/9956-bai/20260707-53-9956-bai-06.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/9956/9956-bai/20260707-53-9956-bai-06.png",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2459,7 +4600,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "White flat",
             "image": {
-              "src": "lv_assets/photo/9956/9956-mode/9956-mode (1).png",
+              "src": "lv_assets/photo/9956/9956-mode/9956-mode (1).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2469,7 +4610,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Soft topline",
             "image": {
-              "src": "lv_assets/photo/9956/9956-mode/9956-mode (2).png",
+              "src": "lv_assets/photo/9956/9956-mode/9956-mode (2).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2479,7 +4620,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Low profile",
             "image": {
-              "src": "lv_assets/photo/9956/9956-mode/9956-mode (3).png",
+              "src": "lv_assets/photo/9956/9956-mode/9956-mode (3).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2489,7 +4630,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Pale styling",
             "image": {
-              "src": "lv_assets/photo/9956/9956-mode/9956-mode (4).png",
+              "src": "lv_assets/photo/9956/9956-mode/9956-mode (4).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2499,7 +4640,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Clean front",
             "image": {
-              "src": "lv_assets/photo/9956/9956-mode/9956-mode (5).png",
+              "src": "lv_assets/photo/9956/9956-mode/9956-mode (5).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2509,7 +4650,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Light step",
             "image": {
-              "src": "lv_assets/photo/9956/9956-mode/9956-mode (6).png",
+              "src": "lv_assets/photo/9956/9956-mode/9956-mode (6).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2519,7 +4660,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Quiet curve",
             "image": {
-              "src": "lv_assets/photo/9956/9956-mode/9956-mode (7).png",
+              "src": "lv_assets/photo/9956/9956-mode/9956-mode (7).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2529,7 +4670,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Bare ankle",
             "image": {
-              "src": "lv_assets/photo/9956/9956-mode/9956-mode (8).png",
+              "src": "lv_assets/photo/9956/9956-mode/9956-mode (8).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2539,7 +4680,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Minimal frame",
             "image": {
-              "src": "lv_assets/photo/9956/9956-mode/9956-mode (9).png",
+              "src": "lv_assets/photo/9956/9956-mode/9956-mode (9).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2615,7 +4756,7 @@ window.HUAN_SITE_CONFIG = {
         "slices": [
           {
             "image": {
-              "src": "lv_assets/photo/9956/9956-mode/9956-mode (1).png",
+              "src": "lv_assets/photo/9956/9956-mode/9956-mode (1).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 34,
@@ -2627,7 +4768,7 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/9956/9956-mode/9956-mode (2).png",
+              "src": "lv_assets/photo/9956/9956-mode/9956-mode (2).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 33,
@@ -2639,7 +4780,7 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/9956/9956-mode/9956-mode (3).png",
+              "src": "lv_assets/photo/9956/9956-mode/9956-mode (3).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 39,
@@ -2651,7 +4792,7 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/9956/9956-mode/9956-mode (4).png",
+              "src": "lv_assets/photo/9956/9956-mode/9956-mode (4).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2663,20 +4804,27 @@ window.HUAN_SITE_CONFIG = {
           }
         ],
         "story": "White Pause",
-        "intro": "这双鞋在画面中像一个留白位置。没有明显装饰，重点放在脚背开口、圆润前端和贴近地面的比例。"
+        "intro": "这双鞋在画面中像一个留白位置。没有明显装饰，重点放在脚背开口、圆润前端和贴近地面的比例。",
+        "mainImage": {
+          "src": "lv_assets/photo/9956/9956-bai/20260707-53-9956-bai-01.png",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        }
       },
       "9957": {
         "gallery": [
           {
             "image": {
-              "src": "lv_assets/photo/9957/9957-bai/20260613102644-9957-bai (1).png",
+              "src": "lv_assets/photo/9957/9957-bai/20260707-53-9957-bai-01.jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
               "isUploaded": true
             },
             "thumb": {
-              "src": "lv_assets/photo/9957/9957-bai/20260613102644-9957-bai (1).png",
+              "src": "lv_assets/photo/9957/9957-bai/20260707-53-9957-bai-01.jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2685,14 +4833,126 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/9957/9957-bai/20260613102646-9957-bai (3).png",
+              "src": "lv_assets/photo/9957/9957-bai/20260707-53-9957-bai-02.png",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
               "isUploaded": true
             },
             "thumb": {
-              "src": "lv_assets/photo/9957/9957-bai/20260613102646-9957-bai (3).png",
+              "src": "lv_assets/photo/9957/9957-bai/20260707-53-9957-bai-02.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/9957/9957-bai/20260707-53-9957-bai-03.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/9957/9957-bai/20260707-53-9957-bai-03.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/9957/9957-bai/20260707-53-9957-bai-04.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/9957/9957-bai/20260707-53-9957-bai-04.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/9957/9957-bai/20260707-53-9957-bai-05.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/9957/9957-bai/20260707-53-9957-bai-05.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/9957/9957-bai/20260707-53-9957-bai-06.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/9957/9957-bai/20260707-53-9957-bai-06.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/9957/9957-bai/20260707-53-9957-bai-07.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/9957/9957-bai/20260707-53-9957-bai-07.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/9957/9957-bai/20260707-53-9957-bai-08.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/9957/9957-bai/20260707-53-9957-bai-08.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/9957/9957-bai/20260707-53-9957-bai-09.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/9957/9957-bai/20260707-53-9957-bai-09.png",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2704,7 +4964,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Gold weave",
             "image": {
-              "src": "lv_assets/photo/9957/9957-mode/9957-mode (1).png",
+              "src": "lv_assets/photo/9957/9957-mode/9957-mode (1).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2714,7 +4974,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Twin straps",
             "image": {
-              "src": "lv_assets/photo/9957/9957-mode/9957-mode (2).png",
+              "src": "lv_assets/photo/9957/9957-mode/9957-mode (2).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2724,7 +4984,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Seated styling",
             "image": {
-              "src": "lv_assets/photo/9957/9957-mode/9957-mode (3).png",
+              "src": "lv_assets/photo/9957/9957-mode/9957-mode (3).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2734,7 +4994,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Cream pleats",
             "image": {
-              "src": "lv_assets/photo/9957/9957-mode/9957-mode (4).png",
+              "src": "lv_assets/photo/9957/9957-mode/9957-mode (4).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2744,7 +5004,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Warm metallic",
             "image": {
-              "src": "lv_assets/photo/9957/9957-mode/9957-mode (5).png",
+              "src": "lv_assets/photo/9957/9957-mode/9957-mode (5).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2754,7 +5014,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Low mule",
             "image": {
-              "src": "lv_assets/photo/9957/9957-mode/9957-mode (6).png",
+              "src": "lv_assets/photo/9957/9957-mode/9957-mode (6).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2764,7 +5024,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Buckle rhythm",
             "image": {
-              "src": "lv_assets/photo/9957/9957-mode/9957-mode (7).png",
+              "src": "lv_assets/photo/9957/9957-mode/9957-mode (7).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2774,7 +5034,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Soft room light",
             "image": {
-              "src": "lv_assets/photo/9957/9957-mode/9957-mode (8).png",
+              "src": "lv_assets/photo/9957/9957-mode/9957-mode (8).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2784,7 +5044,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Ankle line",
             "image": {
-              "src": "lv_assets/photo/9957/9957-mode/9957-mode (9).png",
+              "src": "lv_assets/photo/9957/9957-mode/9957-mode (9).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2794,7 +5054,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Tan leather mood",
             "image": {
-              "src": "lv_assets/photo/9957/9957-mode/9957-mode (10).png",
+              "src": "lv_assets/photo/9957/9957-mode/9957-mode (10).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2804,7 +5064,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Open heel",
             "image": {
-              "src": "lv_assets/photo/9957/9957-mode/9957-mode (11).png",
+              "src": "lv_assets/photo/9957/9957-mode/9957-mode (11).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2814,7 +5074,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Quiet gold",
             "image": {
-              "src": "lv_assets/photo/9957/9957-mode/9957-mode (12).png",
+              "src": "lv_assets/photo/9957/9957-mode/9957-mode (12).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2824,7 +5084,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Strap detail",
             "image": {
-              "src": "lv_assets/photo/9957/9957-mode/9957-mode (13).png",
+              "src": "lv_assets/photo/9957/9957-mode/9957-mode (13).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2834,7 +5094,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Relaxed posture",
             "image": {
-              "src": "lv_assets/photo/9957/9957-mode/9957-mode (14).png",
+              "src": "lv_assets/photo/9957/9957-mode/9957-mode (14).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2844,7 +5104,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Close texture",
             "image": {
-              "src": "lv_assets/photo/9957/9957-mode/9957-mode (15).png",
+              "src": "lv_assets/photo/9957/9957-mode/9957-mode (15).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -2962,7 +5222,7 @@ window.HUAN_SITE_CONFIG = {
         "slices": [
           {
             "image": {
-              "src": "lv_assets/photo/9957/9957-mode/9957-mode (1).png",
+              "src": "lv_assets/photo/9957/9957-mode/9957-mode (1).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 30,
@@ -2974,7 +5234,7 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/9957/9957-mode/9957-mode (2).png",
+              "src": "lv_assets/photo/9957/9957-mode/9957-mode (2).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 41,
@@ -2986,7 +5246,7 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/9957/9957-mode/9957-mode (3).png",
+              "src": "lv_assets/photo/9957/9957-mode/9957-mode (3).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 28,
@@ -2998,7 +5258,7 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/9957/9957-mode/9957-mode (4).png",
+              "src": "lv_assets/photo/9957/9957-mode/9957-mode (4).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 23,
@@ -3010,20 +5270,27 @@ window.HUAN_SITE_CONFIG = {
           }
         ],
         "story": "Warm Reflection",
-        "intro": "金色并不以强烈方式出现，而是通过编织表面分散光线。双带和铆钉让鞋型更有节奏，坐姿画面让整体显得从容。"
+        "intro": "金色并不以强烈方式出现，而是通过编织表面分散光线。双带和铆钉让鞋型更有节奏，坐姿画面让整体显得从容。",
+        "mainImage": {
+          "src": "lv_assets/photo/9957/9957-bai/20260707-53-9957-bai-01.jpg",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        }
       },
       "9963": {
         "gallery": [
           {
             "image": {
-              "src": "lv_assets/photo/9963/9963-bai/20260613102721-9963-bai (1).png",
+              "src": "lv_assets/photo/9963/9963-bai/20260707-53-9963-bai-01.png",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
               "isUploaded": true
             },
             "thumb": {
-              "src": "lv_assets/photo/9963/9963-bai/20260613102721-9963-bai (1).png",
+              "src": "lv_assets/photo/9963/9963-bai/20260707-53-9963-bai-01.png",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -3032,14 +5299,14 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/9963/9963-bai/20260613102723-9963-bai (2).png",
+              "src": "lv_assets/photo/9963/9963-bai/20260707-53-9963-bai-02.png",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
               "isUploaded": true
             },
             "thumb": {
-              "src": "lv_assets/photo/9963/9963-bai/20260613102723-9963-bai (2).png",
+              "src": "lv_assets/photo/9963/9963-bai/20260707-53-9963-bai-02.png",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -3048,14 +5315,110 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/9963/9963-bai/20260613102724-9963-bai (3).png",
+              "src": "lv_assets/photo/9963/9963-bai/20260707-53-9963-bai-03.png",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
               "isUploaded": true
             },
             "thumb": {
-              "src": "lv_assets/photo/9963/9963-bai/20260613102724-9963-bai (3).png",
+              "src": "lv_assets/photo/9963/9963-bai/20260707-53-9963-bai-03.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/9963/9963-bai/20260707-53-9963-bai-04.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/9963/9963-bai/20260707-53-9963-bai-04.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/9963/9963-bai/20260707-53-9963-bai-05.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/9963/9963-bai/20260707-53-9963-bai-05.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/9963/9963-bai/20260707-53-9963-bai-06.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/9963/9963-bai/20260707-53-9963-bai-06.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/9963/9963-bai/20260707-53-9963-bai-07.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/9963/9963-bai/20260707-53-9963-bai-07.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/9963/9963-bai/20260707-53-9963-bai-08.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/9963/9963-bai/20260707-53-9963-bai-08.png",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            }
+          },
+          {
+            "image": {
+              "src": "lv_assets/photo/9963/9963-bai/20260707-53-9963-bai-09.jpg",
+              "scale": 1,
+              "offsetX": 50,
+              "offsetY": 50,
+              "isUploaded": true
+            },
+            "thumb": {
+              "src": "lv_assets/photo/9963/9963-bai/20260707-53-9963-bai-09.jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -3067,7 +5430,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Classic strap",
             "image": {
-              "src": "lv_assets/photo/9963/9963-mode/9963-mode (1).png",
+              "src": "lv_assets/photo/9963/9963-mode/9963-mode (1).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -3077,7 +5440,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Woven toe",
             "image": {
-              "src": "lv_assets/photo/9963/9963-mode/9963-mode (2).png",
+              "src": "lv_assets/photo/9963/9963-mode/9963-mode (2).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -3087,7 +5450,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Instep line",
             "image": {
-              "src": "lv_assets/photo/9963/9963-mode/9963-mode (3).png",
+              "src": "lv_assets/photo/9963/9963-mode/9963-mode (3).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -3097,7 +5460,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Soft light",
             "image": {
-              "src": "lv_assets/photo/9963/9963-mode/9963-mode (4).png",
+              "src": "lv_assets/photo/9963/9963-mode/9963-mode (4).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -3107,7 +5470,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Rounded shape",
             "image": {
-              "src": "lv_assets/photo/9963/9963-mode/9963-mode (5).png",
+              "src": "lv_assets/photo/9963/9963-mode/9963-mode (5).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -3117,7 +5480,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Low heel",
             "image": {
-              "src": "lv_assets/photo/9963/9963-mode/9963-mode (6).png",
+              "src": "lv_assets/photo/9963/9963-mode/9963-mode (6).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -3127,7 +5490,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Close texture",
             "image": {
-              "src": "lv_assets/photo/9963/9963-mode/9963-mode (7).png",
+              "src": "lv_assets/photo/9963/9963-mode/9963-mode (7).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -3137,7 +5500,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Pale floor",
             "image": {
-              "src": "lv_assets/photo/9963/9963-mode/9963-mode (8).png",
+              "src": "lv_assets/photo/9963/9963-mode/9963-mode (8).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -3147,7 +5510,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Measured step",
             "image": {
-              "src": "lv_assets/photo/9963/9963-mode/9963-mode (9).png",
+              "src": "lv_assets/photo/9963/9963-mode/9963-mode (9).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -3157,7 +5520,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Natural frame",
             "image": {
-              "src": "lv_assets/photo/9963/9963-mode/9963-mode (10).png",
+              "src": "lv_assets/photo/9963/9963-mode/9963-mode (10).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -3167,7 +5530,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Clean profile",
             "image": {
-              "src": "lv_assets/photo/9963/9963-mode/9963-mode (11).png",
+              "src": "lv_assets/photo/9963/9963-mode/9963-mode (11).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -3177,7 +5540,7 @@ window.HUAN_SITE_CONFIG = {
           {
             "title": "Quiet Mary Jane",
             "image": {
-              "src": "lv_assets/photo/9963/9963-mode/9963-mode (12).png",
+              "src": "lv_assets/photo/9963/9963-mode/9963-mode (12).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 50,
@@ -3253,7 +5616,7 @@ window.HUAN_SITE_CONFIG = {
         "slices": [
           {
             "image": {
-              "src": "lv_assets/photo/9963/9963-mode/9963-mode (1).png",
+              "src": "lv_assets/photo/9963/9963-mode/9963-mode (1).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 30,
@@ -3265,7 +5628,7 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/9963/9963-mode/9963-mode (2).png",
+              "src": "lv_assets/photo/9963/9963-mode/9963-mode (2).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 43,
@@ -3277,7 +5640,7 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/9963/9963-mode/9963-mode (3).png",
+              "src": "lv_assets/photo/9963/9963-mode/9963-mode (3).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 30,
@@ -3289,7 +5652,7 @@ window.HUAN_SITE_CONFIG = {
           },
           {
             "image": {
-              "src": "lv_assets/photo/9963/9963-mode/9963-mode (4).png",
+              "src": "lv_assets/photo/9963/9963-mode/9963-mode (4).jpg",
               "scale": 1,
               "offsetX": 50,
               "offsetY": 28,
@@ -3301,23 +5664,31 @@ window.HUAN_SITE_CONFIG = {
           }
         ],
         "story": "Classic Quiet",
-        "intro": "鞋型熟悉，但编织表面让它更轻。横带把脚背比例收住，低跟和圆头让画面保持稳定。"
+        "intro": "鞋型熟悉，但编织表面让它更轻。横带把脚背比例收住，低跟和圆头让画面保持稳定。",
+        "mainImage": {
+          "src": "lv_assets/photo/9963/9963-bai/20260707-53-9963-bai-01.png",
+          "scale": 1,
+          "offsetX": 50,
+          "offsetY": 50,
+          "isUploaded": true
+        }
       }
     },
-    "activeProductId": "1003"
+    "activeProductId": "1008"
   },
   "controllerGroups": {
     "secondary": {
       "women": [
-        "1003",
         "1008",
+        "1003",
         "3009",
         "3605",
         "3623",
-        "6316",
         "9956",
         "9957",
-        "9963"
+        "9963",
+        "2652",
+        "6198"
       ],
       "men": [
         "3009"
@@ -3329,6 +5700,8 @@ window.HUAN_SITE_CONFIG = {
   },
   "controllerTitles": {
     "secondary.products.0.image": "1003",
-    "product.1003": "1003"
+    "product.1008": "1003",
+    "product.2652": "2652 Gloss Mary Jane",
+    "product.6198": "6198 Soft T-Strap"
   }
 };
